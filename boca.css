@@ -1,0 +1,77 @@
+body {
+    background-image:url('6fd9b5050c470e1630ca21de0c71ad53.jpg');
+    background-size: cover;
+  }
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tarjeta-comida {
+  width: 250px;
+  height: 250px;
+  padding: 0px;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  border-radius: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tarjeta-comida:hover{
+  background-color: red;
+}
+
+.hambur-image{
+  position: relative;
+  width: 430px;
+  height: 240px;
+  left: -127px;
+  border-radius: 47px;
+  object-fit: contain;
+}
+.Picada-image{
+  position: relative;
+  width: 430px;
+  height: 240px;
+  left: -274px;
+  border-radius: 47px;
+  object-fit: contain;
+}
+.arepas-image{
+  position: relative;
+  width: 430px;
+  height: 240px;
+  left: -188px;
+  border-radius: 47px;
+  object-fit: contain;
+}
+
+.catalogo{
+  width: 1000px;
+  height: 250px;
+  border-radius: 50px;
+  margin: 30px;
+  color:rgba(87, 87, 87, 0.274);
+  overflow: hidden;
+}
+
+t {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -197px;
+  left: -74px;
+}
+
+.catalogo:hover {
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
+
