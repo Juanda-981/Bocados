@@ -40,8 +40,17 @@ function mostrarArepa () {
     sectionArepa.style.display = 'block'
 }
 
+function ir(){
+ let contraseña="Bocados-Nemococo"
+ let user="Dilan-Bocados.com"
 
-
+ if(document.form.password.value==contraseña && document.form.login.value==user){
+    sectionSecion.style.display = 'none'
+ }
+ else{
+    alert("por favor ingresa nombre y usuario correctos")
+ }
+}
 
 
 

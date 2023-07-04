@@ -15,6 +15,20 @@ body {
 #bot-ini p {
   font-size: 20px; 
 }
+#inicia-sec-aqui {
+  background-color: rgb(119, 119, 119);
+  position: absolute;
+  left: 32%;
+  top: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 475px;
+  height: 386px;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 10px solid black;
+}
 
 .titulo {
     color: rgb(0, 0, 0);
@@ -87,4 +101,38 @@ t {
   background-color: rgba(255, 255, 255, 0.623);
 }
 
+#contraseña {
+  position: relative;
+  border-radius: 50px;
+  left: 120px;
+  top: -110px;
+}
+#letra-contraseña {
+  position: relative;
+  left: 100px;
+  top: -110px;
+}
+#usuario{
+  position: relative;
+  border-radius: 50px;
+  left: 196px;
+  top: -90px;
+}
+#letra-usuario {
+  position: relative;
+  left: -150px;
+  top: -55px;
+}
+#iniciar-secion {
+  width: 128px;
+  height: 50px;
+  position: relative;
+  border-radius: 50px;
+  left: -10px;
+  top: 44px;
+  justify-content: space-evenly;
+}
+#iniciar-secion:hover {
+  background-color: #09ff00;
+}
 
