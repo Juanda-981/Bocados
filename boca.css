@@ -43,40 +43,101 @@ body {
 .tarjeta-comida {
   width: 250px;
   height: 250px;
-  padding: 0px;
+  margin: 50px;
   background: #f8f8f8;
   box-sizing: border-box;
   border-radius: 70px;
   justify-content: space-evenly;
-  align-items: center;
 }
-
 .tarjeta-comida:hover{
-  background-color: red;
+  background-color: rgb(0, 0, 0);
+}
+#botonHamburguesa img {
+  position: relative;
+  left: -49px;
+  top: -53px;
+  width: 250px;
+  height: 250px;
+  border-radius: 70px;
+  margin: 50px;
+}
+#botonPicada img {
+  position: relative;
+  left: -48px;
+  top: -53px;
+  width: 250px;
+  height: 250px;
+  border-radius: 70px;
+  margin: 50px;
+}
+#botonArepa img {
+  position: relative;
+  left: -49px;
+  top: -53px;
+  width: 250px;
+  height: 250px;
+  border-radius: 70px;
+  margin: 50px;
+}
+#botonPatacon img {
+  position: relative;
+  left: -49px;
+  top: -53px;
+  width: 250px;
+  height: 250px;
+  border-radius: 70px;
+  margin: 50px;
+}
+#botonSalchi img {
+  position: relative;
+  left: -49px;
+  top: -53px;
+  width: 250px;
+  height: 250px;
+  border-radius: 70px;
+  margin: 50px;
 }
 
 .hambur-image{
+  display: flex;
   position: relative;
   width: 430px;
   height: 240px;
-  left: -127px;
-  border-radius: 47px;
+  left: -41px;
+  top: -55px;
   object-fit: contain;
 }
 .Picada-image{
+  display: flex;
   position: relative;
   width: 430px;
   height: 240px;
-  left: -274px;
-  border-radius: 47px;
+  left: -41px;
   object-fit: contain;
 }
 .arepas-image{
+  display: flex;
   position: relative;
   width: 430px;
   height: 240px;
-  left: -188px;
-  border-radius: 47px;
+  left: -41px;
+  object-fit: contain;
+}
+.patacones-image {
+  display: flex;
+  position: relative;
+  width: 430px;
+  height: 240px;
+  left: -41px;
+  object-fit: contain;
+}
+.salchipapas-image {
+  display: flex;
+  position: relative;
+  width: 430px;
+  height: 240px;
+  left: -41px;
+  top: -15px;
   object-fit: contain;
 }
 
@@ -85,16 +146,13 @@ body {
   height: 250px;
   border-radius: 50px;
   margin: 30px;
-  color:rgba(87, 87, 87, 0.274);
+  color: #000000;
   overflow: hidden;
 }
-
-t {
-  font-size: 30px;
-  color: rgb(0, 0, 0);
+.catalogo h2 {
   position: relative;
-  top: -197px;
-  left: -74px;
+  left: 120px;
+  top: 10px;
 }
 
 .catalogo:hover {
@@ -174,6 +232,30 @@ t {
 #salir-de-arepas p {
   font-size: 20px;
 }
+#salir-de-patacones {
+  background-color: #ff0000;
+    border-radius: 20px;
+    position: absolute;
+    left: 6%;
+    top: 35px;
+    width: 150px;
+    height: 60px;
+}
+#salir-de-patacones p {
+  font-size: 20px;
+}
+#salir-de-salchipapas {
+  background-color: #ff0000;
+    border-radius: 20px;
+    position: absolute;
+    left: 6%;
+    top: 35px;
+    width: 150px;
+    height: 60px;
+}
+#salir-de-salchipapas p {
+  font-size: 20px;
+}
 
 #salir-de-initSection {
   background-color: #ff0000;
@@ -200,3 +282,4 @@ t {
 #salir-de-pedidos p {
   font-size: 20px;
 }
+
