@@ -79,6 +79,8 @@ let extCatPatacones = document.getElementById('salir-de-patacones')
 let extCatSalchi = document.getElementById('salir-de-salchipapas')
 let extInitSection = document.getElementById('salir-de-initSection')
 let extVerifiedcuenta = document.getElementById('salir-de-pedidos')
+let extCompra = document.getElementById('cerrarCompra')
+extCompra.style.display = 'none'
 
 let sectionPrin = document.getElementById('tarjetas_comidas')
 
@@ -96,6 +98,111 @@ let sectionSecion = document.getElementById('secSecion')
 sectionSecion.style.display = 'none'
 let sectionPedidos = document.getElementById('seccion-de-pedidos')
 sectionPedidos.style.display = 'none'
+
+let imageHambur1 = document.getElementById('HamburImage1')
+imageHambur1.style.display = 'none'
+let imageHambur2 = document.getElementById('HamburImage2')
+imageHambur2.style.display = 'none'
+let imageHambur3 = document.getElementById('HamburImage3')
+imageHambur3.style.display = 'none'
+let imageHambur4 = document.getElementById('HamburImage4')
+imageHambur4.style.display = 'none'
+let imageHambur5 = document.getElementById('HamburImage5')
+imageHambur5.style.display = 'none'
+let imageHambur6 = document.getElementById('HamburImage6')
+imageHambur6.style.display = 'none'
+let imageHambur7 = document.getElementById('HamburImage7')
+imageHambur7.style.display = 'none'
+let imageHambur8 = document.getElementById('HamburImage8')
+imageHambur8.style.display = 'none'
+let imageHambur9 = document.getElementById('HamburImage9')
+imageHambur9.style.display = 'none'
+let imageHambur10 = document.getElementById('HamburImage10')
+imageHambur10.style.display = 'none'
+
+let imagePicada1 = document.getElementById('PicadaImage1')
+imagePicada1.style.display = 'none'
+let imagePicada2 = document.getElementById('PicadaImage2')
+imagePicada2.style.display = 'none'
+let imagePicada3 = document.getElementById('PicadaImage3')
+imagePicada3.style.display = 'none'
+let imagePicada4 = document.getElementById('PicadaImage4')
+imagePicada4.style.display = 'none'
+let imagePicada5 = document.getElementById('PicadaImage5')
+imagePicada5.style.display = 'none'
+let imagePicada6 = document.getElementById('PicadaImage6')
+imagePicada6.style.display = 'none'
+let imagePicada7 = document.getElementById('PicadaImage7')
+imagePicada7.style.display = 'none'
+let imagePicada8 = document.getElementById('PicadaImage8')
+imagePicada8.style.display = 'none'
+let imagePicada9 = document.getElementById('PicadaImage9')
+imagePicada9.style.display = 'none'
+let imagePicada10 = document.getElementById('PicadaImage10')
+imagePicada10.style.display = 'none'
+
+let imageArepa1 = document.getElementById('ArepaImage1')
+imageArepa1.style.display = 'none'
+let imageArepa2 = document.getElementById('ArepaImage2')
+imageArepa2.style.display = 'none'
+let imageArepa3 = document.getElementById('ArepaImage3')
+imageArepa3.style.display = 'none'
+let imageArepa4 = document.getElementById('ArepaImage4')
+imageArepa4.style.display = 'none'
+let imageArepa5 = document.getElementById('ArepaImage5')
+imageArepa5.style.display = 'none'
+let imageArepa6 = document.getElementById('ArepaImage6')
+imageArepa6.style.display = 'none'
+let imageArepa7 = document.getElementById('ArepaImage7')
+imageArepa7.style.display = 'none'
+let imageArepa8 = document.getElementById('ArepaImage8')
+imageArepa8.style.display = 'none'
+let imageArepa9 = document.getElementById('ArepaImage9')
+imageArepa9.style.display = 'none'
+let imageArepa10 = document.getElementById('ArepaImage10')
+imageArepa10.style.display = 'none'
+
+let imagePataco1 = document.getElementById('PatacoImage1')
+imagePataco1.style.display = 'none'
+let imagePataco2 = document.getElementById('PatacoImage2')
+imagePataco2.style.display = 'none'
+let imagePataco3 = document.getElementById('PatacoImage3')
+imagePataco3.style.display = 'none'
+let imagePataco4 = document.getElementById('PatacoImage4')
+imagePataco4.style.display = 'none'
+let imagePataco5 = document.getElementById('PatacoImage5')
+imagePataco5.style.display = 'none'
+let imagePataco6 = document.getElementById('PatacoImage6')
+imagePataco6.style.display = 'none'
+let imagePataco7 = document.getElementById('PatacoImage7')
+imagePataco7.style.display = 'none'
+let imagePataco8 = document.getElementById('PatacoImage8')
+imagePataco8.style.display = 'none'
+let imagePataco9 = document.getElementById('PatacoImage9')
+imagePataco9.style.display = 'none'
+let imagePataco10 = document.getElementById('PatacoImage10')
+imagePataco10.style.display = 'none'
+
+let imageSalchi1 = document.getElementById('SalchiImage1')
+imageSalchi1.style.display = 'none'
+let imageSalchi2 = document.getElementById('SalchiImage2')
+imageSalchi2.style.display = 'none'
+let imageSalchi3 = document.getElementById('SalchiImage3')
+imageSalchi3.style.display = 'none'
+let imageSalchi4 = document.getElementById('SalchiImage4')
+imageSalchi4.style.display = 'none'
+let imageSalchi5 = document.getElementById('SalchiImage5')
+imageSalchi5.style.display = 'none'
+let imageSalchi6 = document.getElementById('SalchiImage6')
+imageSalchi6.style.display = 'none'
+let imageSalchi7 = document.getElementById('SalchiImage7')
+imageSalchi7.style.display = 'none'
+let imageSalchi8 = document.getElementById('SalchiImage8')
+imageSalchi8.style.display = 'none'
+let imageSalchi9 = document.getElementById('SalchiImage9')
+imageSalchi9.style.display = 'none'
+let imageSalchi10 = document.getElementById('SalchiImage10')
+imageSalchi10.style.display = 'none'
 
 botonDeHambur1.addEventListener('click',mostraInfHambur1)
 botonDeHambur2.addEventListener('click',mostraInfHambur2)
@@ -237,229 +344,837 @@ function mostrarSalchi () {
 
 function mostraInfHambur1 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur1.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.position = 'absolute';
     divDeHamburguesaInf.style.top = '50px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 1.';
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur2 () {
     divDeHamburguesaInf.style.display = 'block'
-    divDeHamburguesaInf.style.position = 'absolute';
+    imageHambur2.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '380px';
     divDeHamburguesaInf.style.top = '350px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 2.';
+    imageHambur1.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur3 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur3.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '650px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 3.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur4 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur4.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '950px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 4.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur5 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur5.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '1250px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 5.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur6 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur6.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '1550px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 6.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur7 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur7.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '1900px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 7.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur8 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur8.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '2200px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 8.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur9 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur9.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '2500px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 9.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function mostraInfHambur10 () {
     divDeHamburguesaInf.style.display = 'block'
+    imageHambur10.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '940px';
+    extCompra.style.top = '70px';
     divDeHamburguesaInf.style.top = '2850px';
     divDeHamburguesaInf.style.left = '400px';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 10.';
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
 }
 
 function mostraInfPicada1 () {
     divDePicadaInf.style.display = 'block'
-    divDePicadaInf.style.position = 'absolute';
+    imagePicada1.style.display = 'block'
     divDePicadaInf.style.top = '50px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 1.';
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada2 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada2.style.display = 'block'
     divDePicadaInf.style.top = '350px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 2.';
+    imagePicada1.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada3 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada3.style.display = 'block'
     divDePicadaInf.style.top = '650px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 3.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada4 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada4.style.display = 'block'
     divDePicadaInf.style.top = '950px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 4.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada5 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada5.style.display = 'block'
     divDePicadaInf.style.top = '1250px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 5.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada6 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada6.style.display = 'block'
     divDePicadaInf.style.top = '1550px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 6.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada7 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada7.style.display = 'block'
     divDePicadaInf.style.top = '1900px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 7.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada8 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada8.style.display = 'block'
     divDePicadaInf.style.top = '2200px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 8.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada9 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada9.style.display = 'block'
     divDePicadaInf.style.top = '2500px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 9.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function mostraInfPicada10 () {
     divDePicadaInf.style.display = 'block'
+    imagePicada10.style.display = 'block'
     divDePicadaInf.style.top = '2850px';
     divDePicadaInf.style.left = '400px';
     divDePicadaInf.textContent = 'Este es el texto del botón 10.';
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
 }
 
 function mostraInfArepa1 () {
     divDeArepaInf.style.display = 'block'
-    divDeArepaInf.style.position = 'absolute';
-    divDeArepaInf.style.top = '100px';
-    divDeArepaInf.style.left = '100px';
+    imageArepa1.style.display = 'block'
+    divDeArepaInf.style.top = '50px';
+    divDeArepaInf.style.left = '400px';
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa2 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa2.style.display = 'block'
+    divDeArepaInf.style.top = '350px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 2.';
+    imageArepa1.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa3 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa3.style.display = 'block'
+    divDeArepaInf.style.top = '650px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 3.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa4 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa4.style.display = 'block'
+    divDeArepaInf.style.top = '950px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 4.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa5 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa5.style.display = 'block'
+    divDeArepaInf.style.top = '1250px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 5.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa6 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa6.style.display = 'block'
+    divDeArepaInf.style.top = '1550px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 6.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa7 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa7.style.display = 'block'
+    divDeArepaInf.style.top = '1900px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 7.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa8 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa8.style.display = 'block'
+    divDeArepaInf.style.top = '2200px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 8.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa9 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa9.style.display = 'block'
+    divDeArepaInf.style.top = '2500px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 9.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function mostraInfArepa10 () {
     divDeArepaInf.style.display = 'block'
+    imageArepa10.style.display = 'block'
+    divDeArepaInf.style.top = '2850px';
+    divDeArepaInf.style.left = '400px';
+    divDeArepaInf.textContent = 'Este es el texto del botón 10.';
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
 }
 
 function mostraInfPatacon1 () {
     divDePatacoInf.style.display = 'block'
-    divDePatacoInf.style.position = 'absolute';
-    divDePatacoInf.style.top = '100px';
-    divDePatacoInf.style.left = '100px';
+    imagePataco1.style.display = 'block'
+    divDePatacoInf.style.top = '50px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 2.';
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon2 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco2.style.display = 'block'
+    divDePatacoInf.style.top = '350px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 2.';
+    imagePataco1.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon3 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco3.style.display = 'block'
+    divDePatacoInf.style.top = '650px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 3.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon4 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco4.style.display = 'block'
+    divDePatacoInf.style.top = '950px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 4.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon5 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco5.style.display = 'block'
+    divDePatacoInf.style.top = '1250px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 5.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon6 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco6.style.display = 'block'
+    divDePatacoInf.style.top = '1550px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 6.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon7 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco7.style.display = 'block'
+    divDePatacoInf.style.top = '1900px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 7.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon8 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco8.style.display = 'block'
+    divDePatacoInf.style.top = '2200px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 8.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon9 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco9.style.display = 'block'
+    divDePatacoInf.style.top = '2500px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 9.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon10 () {
     divDePatacoInf.style.display = 'block'
+    imagePataco10.style.display = 'block'
+    divDePatacoInf.style.top = '2850px';
+    divDePatacoInf.style.left = '400px';
+    divDePatacoInf.textContent = 'Este es el texto del botón 10.';
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
 }
 
 function mostraInfSalchipapas1 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi1.style.display = 'block'
     divDeSalchiInf.style.position = 'absolute';
-    divDeSalchiInf.style.top = '100px';
-    divDeSalchiInf.style.left = '100px';
+    divDeSalchiInf.style.top = '50px';
+    divDeSalchiInf.style.left = '400px';
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas2 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi2.style.display = 'block'
+    divDeSalchiInf.style.top = '350px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 2.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas3 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi3.style.display = 'block'
+    divDeSalchiInf.style.top = '650px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 3.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas4 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi4.style.display = 'block'
+    divDeSalchiInf.style.top = '950px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 4.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas5 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi5.style.display = 'block'
+    divDeSalchiInf.style.top = '1250px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 5.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas6 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi6.style.display = 'block'
+    divDeSalchiInf.style.top = '1550px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 6.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas7 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi7.style.display = 'block'
+    divDeSalchiInf.style.top = '1900px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 7.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas8 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi8.style.display = 'block'
+    divDeSalchiInf.style.top = '2200px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 8.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas9 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi9.style.display = 'block'
+    divDeSalchiInf.style.top = '2500px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 9.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas10 () {
     divDeSalchiInf.style.display = 'block'
+    imageSalchi10.style.display = 'block'
+    divDeSalchiInf.style.top = '2850px';
+    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.textContent = 'Este es el texto del botón 10.';
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
 }
 
 function contraVerifi(){
