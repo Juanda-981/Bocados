@@ -1,7 +1,8 @@
 body {
-    background-image:url('fondo1.jpeg');
-    background-size: cover;
-  }
+  font-size: 20px;
+  background-image:url('https://i.pinimg.com/750x/57/26/b8/5726b856f5af6aa0a06f745db706a6fb.jpg');
+  background-size: cover 
+}    
 
 #bot-ini {
     background-color: #09ff00;
@@ -146,8 +147,8 @@ body {
 }
 
 .catalogo{
-  width: 1000px;
-  height: 250px;
+  width: 80%;
+  height: 225px;
   border-radius: 50px;
   margin: 30px;
   color: rgb(255, 187, 0);
@@ -170,7 +171,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 600px;
+  width: 45%;
   height: 585px;
   border-radius: 25px;
   overflow: hidden;
