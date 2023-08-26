@@ -42,17 +42,17 @@ body {
 }
 
 .tarjeta-comida {
-  width: 277px;
-  height: 264px;
+  width: 21%;
+  height: 285px;
   margin: 50px;
-  background: #f8f8f8;
+  background: #000000;
   box-sizing: border-box;
   border-radius: 70px;
   border: 20px solid rgb(255, 196, 0);
   justify-content: space-evenly;
 }
 .tarjeta-comida:hover{
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 162, 255, 0.397);
 }
 #botonHamburguesa img {
   position: relative;
@@ -103,9 +103,9 @@ body {
 .hambur-image{
   display: flex;
   position: relative;
-  width: 430px;
+  width: 43%;
   height: 240px;
-  left: -41px;
+  left: -49px;
   top: -58px;
   object-fit: contain;
 }
