@@ -266,6 +266,7 @@ extCatPatacones.addEventListener('click', salirDePatacones)
 extCatSalchi.addEventListener('click',salirDeSalchipapas)
 extInitSection.addEventListener('click', salirDeIniSesion )
 extVerifiedcuenta.addEventListener('click', salirDePedidos )
+extCompra.addEventListener('click', salirInfoCompra)
 
 botonHamburguesaIni.addEventListener('click', mostrarHambur )
 botonPicadaIni.addEventListener('click', mostrarPicada )
@@ -274,30 +275,156 @@ botonPataconIni.addEventListener('click', mostrarPatacones)
 botonSalchiIni.addEventListener('click', mostrarSalchi)
 botonDeiniciarSecion.addEventListener('click', initSection)
 
+function salirInfoCompra () {
+extCompra.style.display = 'none'
+
+    divDeHamburguesaInf.style.display = 'none'
+    divDePicadaInf.style.display = 'none'
+    divDeArepaInf.style.display = 'none'
+    divDePatacoInf.style.display = 'none'
+    divDeSalchiInf.style.display = 'none'
+
+
+imageHambur1.style.display = 'none'
+imageHambur2.style.display = 'none'
+imageHambur3.style.display = 'none'
+imageHambur4.style.display = 'none'
+imageHambur5.style.display = 'none'
+imageHambur6.style.display = 'none'
+imageHambur7.style.display = 'none'
+imageHambur8.style.display = 'none'
+imageHambur9.style.display = 'none'
+imageHambur10.style.display = 'none'
+
+imagePicada1.style.display = 'none'
+imagePicada2.style.display = 'none'
+imagePicada3.style.display = 'none'
+imagePicada4.style.display = 'none'
+imagePicada5.style.display = 'none'
+imagePicada6.style.display = 'none'
+imagePicada7.style.display = 'none'
+imagePicada8.style.display = 'none'
+imagePicada9.style.display = 'none'
+imagePicada10.style.display = 'none'
+
+imageArepa1.style.display = 'none'
+imageArepa2.style.display = 'none'
+imageArepa3.style.display = 'none'
+imageArepa4.style.display = 'none'
+imageArepa5.style.display = 'none'
+imageArepa6.style.display = 'none'
+imageArepa7.style.display = 'none'
+imageArepa8.style.display = 'none'
+imageArepa9.style.display = 'none'
+imageArepa10.style.display = 'none'
+
+imagePataco1.style.display = 'none'
+imagePataco2.style.display = 'none'
+imagePataco3.style.display = 'none'
+imagePataco4.style.display = 'none'
+imagePataco5.style.display = 'none'
+imagePataco6.style.display = 'none'
+imagePataco7.style.display = 'none'
+imagePataco8.style.display = 'none'
+imagePataco9.style.display = 'none'
+imagePataco10.style.display = 'none'
+
+imageSalchi1.style.display = 'none'
+imageSalchi2.style.display = 'none'
+imageSalchi3.style.display = 'none'
+imageSalchi4.style.display = 'none'
+imageSalchi5.style.display = 'none'
+imageSalchi6.style.display = 'none'
+imageSalchi7.style.display = 'none'
+imageSalchi8.style.display = 'none'
+imageSalchi9.style.display = 'none'
+imageSalchi10.style.display = 'none'
+}
+
 function salirDeHamburguesas () {
+    divDeHamburguesaInf.style.display = 'none'
+    extCompra.style.display = 'none'
     sectionHambur.style.display = 'none'
     sectionPrin.style.display = 'block'
     botonDeiniciarSecion.style.display = 'block'
+    imageHambur1.style.display = 'none'
+    imageHambur2.style.display = 'none'
+    imageHambur3.style.display = 'none'
+    imageHambur4.style.display = 'none'
+    imageHambur5.style.display = 'none'
+    imageHambur6.style.display = 'none'
+    imageHambur7.style.display = 'none'
+    imageHambur8.style.display = 'none'
+    imageHambur9.style.display = 'none'
+    imageHambur10.style.display = 'none'
 }
 function salirDePicada () {
+    divDePicadaInf.style.display = 'none'
+    extCompra.style.display = 'none'
     sectionPicada.style.display = 'none'
     sectionPrin.style.display = 'block'
     botonDeiniciarSecion.style.display = 'block'
+    imagePicada1.style.display = 'none'
+    imagePicada2.style.display = 'none'
+    imagePicada3.style.display = 'none'
+    imagePicada4.style.display = 'none'
+    imagePicada5.style.display = 'none'
+    imagePicada6.style.display = 'none'
+    imagePicada7.style.display = 'none'
+    imagePicada8.style.display = 'none'
+    imagePicada9.style.display = 'none'
+    imagePicada10.style.display = 'none'
 }
 function salirDeArepa () {
+    divDeArepaInf.style.display = 'none'
+    extCompra.style.display = 'none'
     sectionArepa.style.display = 'none'
     sectionPrin.style.display = 'block'
     botonDeiniciarSecion.style.display = 'block'
+    imageArepa1.style.display = 'none'
+    imageArepa2.style.display = 'none'
+    imageArepa3.style.display = 'none'
+    imageArepa4.style.display = 'none'
+    imageArepa5.style.display = 'none'
+    imageArepa6.style.display = 'none'
+    imageArepa7.style.display = 'none'
+    imageArepa8.style.display = 'none'
+    imageArepa9.style.display = 'none'
+    imageArepa10.style.display = 'none'
 }
 function salirDePatacones () {
+    divDePatacoInf.style.display = 'none'
+    extCompra.style.display = 'none'
     sectionPatacones.style.display = 'none'
     sectionPrin.style.display = 'block'
     botonDeiniciarSecion.style.display = 'block'
+    imagePataco1.style.display = 'none'
+    imagePataco2.style.display = 'none'
+    imagePataco3.style.display = 'none'
+    imagePataco4.style.display = 'none'
+    imagePataco5.style.display = 'none'
+    imagePataco6.style.display = 'none'
+    imagePataco7.style.display = 'none'
+    imagePataco8.style.display = 'none'
+    imagePataco9.style.display = 'none'
+    imagePataco10.style.display = 'none'
 }
 function salirDeSalchipapas () {
+    divDeSalchiInf.style.display = 'none'
+    extCompra.style.display = 'none'
     sectionSalchipaps.style.display = 'none'
     sectionPrin.style.display = 'block'
     botonDeiniciarSecion.style.display = 'block'
+    imageSalchi1.style.display = 'none'
+    imageSalchi2.style.display = 'none'
+    imageSalchi3.style.display = 'none'
+    imageSalchi4.style.display = 'none'
+    imageSalchi5.style.display = 'none'
+    imageSalchi6.style.display = 'none'
+    imageSalchi7.style.display = 'none'
+    imageSalchi8.style.display = 'none'
+    imageSalchi9.style.display = 'none'
+    imageSalchi10.style.display = 'none'
 }
 function salirDeIniSesion () {
     sectionSecion.style.display = 'none'
@@ -346,11 +473,11 @@ function mostraInfHambur1 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur1.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
+    extCompra.style.left = '80%';
     extCompra.style.top = '70px';
     divDeHamburguesaInf.style.position = 'absolute';
-    divDeHamburguesaInf.style.top = '50px';
-    divDeHamburguesaInf.style.left = '400px';
+    divDeHamburguesaInf.style.top = '35px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 1.';
     imageHambur2.style.display = 'none'
     imageHambur3.style.display = 'none'
@@ -366,10 +493,10 @@ function mostraInfHambur2 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur2.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
+    extCompra.style.left = '80%';
     extCompra.style.top = '380px';
-    divDeHamburguesaInf.style.top = '350px';
-    divDeHamburguesaInf.style.left = '400px';
+    divDeHamburguesaInf.style.top = '335px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 2.';
     imageHambur1.style.display = 'none'
     imageHambur3.style.display = 'none'
@@ -385,10 +512,10 @@ function mostraInfHambur3 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur3.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '650px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '650px';
+    divDeHamburguesaInf.style.top = '620px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 3.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -404,10 +531,10 @@ function mostraInfHambur4 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur4.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '950px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '920px';
+    divDeHamburguesaInf.style.top = '900px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 4.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -423,10 +550,10 @@ function mostraInfHambur5 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur5.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '1250px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1220px';
+    divDeHamburguesaInf.style.top = '1190px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 5.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -442,10 +569,10 @@ function mostraInfHambur6 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur6.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '1550px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1480px';
+    divDeHamburguesaInf.style.top = '1450px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 6.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -461,10 +588,10 @@ function mostraInfHambur7 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur7.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '1900px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1780px';
+    divDeHamburguesaInf.style.top = '1750px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 7.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -480,10 +607,10 @@ function mostraInfHambur8 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur8.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '2200px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2080px';
+    divDeHamburguesaInf.style.top = '2040px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 8.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -499,10 +626,10 @@ function mostraInfHambur9 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur9.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '2500px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2350px';
+    divDeHamburguesaInf.style.top = '2330px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 9.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -518,10 +645,10 @@ function mostraInfHambur10 () {
     divDeHamburguesaInf.style.display = 'block'
     imageHambur10.style.display = 'block'
     extCompra.style.display = 'block'
-    extCompra.style.left = '940px';
-    extCompra.style.top = '70px';
-    divDeHamburguesaInf.style.top = '2850px';
-    divDeHamburguesaInf.style.left = '400px';
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2640px';
+    divDeHamburguesaInf.style.top = '2620px';
+    divDeHamburguesaInf.style.left = '15%';
     divDeHamburguesaInf.textContent = 'Este es el texto del botón 10.';
     imageHambur1.style.display = 'none'
     imageHambur2.style.display = 'none'
@@ -537,8 +664,11 @@ function mostraInfHambur10 () {
 function mostraInfPicada1 () {
     divDePicadaInf.style.display = 'block'
     imagePicada1.style.display = 'block'
-    divDePicadaInf.style.top = '50px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '70px';
+    divDePicadaInf.style.top = '35px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 1.';
     imagePicada2.style.display = 'none'
     imagePicada3.style.display = 'none'
@@ -553,8 +683,11 @@ function mostraInfPicada1 () {
 function mostraInfPicada2 () {
     divDePicadaInf.style.display = 'block'
     imagePicada2.style.display = 'block'
-    divDePicadaInf.style.top = '350px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '380px';
+    divDePicadaInf.style.top = '335px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 2.';
     imagePicada1.style.display = 'none'
     imagePicada3.style.display = 'none'
@@ -569,8 +702,11 @@ function mostraInfPicada2 () {
 function mostraInfPicada3 () {
     divDePicadaInf.style.display = 'block'
     imagePicada3.style.display = 'block'
-    divDePicadaInf.style.top = '650px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '650px';
+    divDePicadaInf.style.top = '620px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 3.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -585,8 +721,11 @@ function mostraInfPicada3 () {
 function mostraInfPicada4 () {
     divDePicadaInf.style.display = 'block'
     imagePicada4.style.display = 'block'
-    divDePicadaInf.style.top = '950px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '920px';
+    divDePicadaInf.style.top = '900px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 4.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -601,8 +740,11 @@ function mostraInfPicada4 () {
 function mostraInfPicada5 () {
     divDePicadaInf.style.display = 'block'
     imagePicada5.style.display = 'block'
-    divDePicadaInf.style.top = '1250px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1220px';
+    divDePicadaInf.style.top = '1190px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 5.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -617,8 +759,11 @@ function mostraInfPicada5 () {
 function mostraInfPicada6 () {
     divDePicadaInf.style.display = 'block'
     imagePicada6.style.display = 'block'
-    divDePicadaInf.style.top = '1550px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1480px';
+    divDePicadaInf.style.top = '1450px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 6.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -633,8 +778,11 @@ function mostraInfPicada6 () {
 function mostraInfPicada7 () {
     divDePicadaInf.style.display = 'block'
     imagePicada7.style.display = 'block'
-    divDePicadaInf.style.top = '1900px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1780px';
+    divDePicadaInf.style.top = '1750px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 7.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -649,8 +797,11 @@ function mostraInfPicada7 () {
 function mostraInfPicada8 () {
     divDePicadaInf.style.display = 'block'
     imagePicada8.style.display = 'block'
-    divDePicadaInf.style.top = '2200px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2080px';
+    divDePicadaInf.style.top = '2040px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 8.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -665,8 +816,11 @@ function mostraInfPicada8 () {
 function mostraInfPicada9 () {
     divDePicadaInf.style.display = 'block'
     imagePicada9.style.display = 'block'
-    divDePicadaInf.style.top = '2500px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2350px';
+    divDePicadaInf.style.top = '2330px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 9.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -681,8 +835,11 @@ function mostraInfPicada9 () {
 function mostraInfPicada10 () {
     divDePicadaInf.style.display = 'block'
     imagePicada10.style.display = 'block'
-    divDePicadaInf.style.top = '2850px';
-    divDePicadaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2640px';
+    divDePicadaInf.style.top = '2620px';
+    divDePicadaInf.style.left = '15%';
     divDePicadaInf.textContent = 'Este es el texto del botón 10.';
     imagePicada1.style.display = 'none'
     imagePicada2.style.display = 'none'
@@ -698,8 +855,11 @@ function mostraInfPicada10 () {
 function mostraInfArepa1 () {
     divDeArepaInf.style.display = 'block'
     imageArepa1.style.display = 'block'
-    divDeArepaInf.style.top = '50px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '70px';
+    divDeArepaInf.style.top = '35px';
+    divDeArepaInf.style.left = '15%';
     imageArepa2.style.display = 'none'
     imageArepa3.style.display = 'none'
     imageArepa4.style.display = 'none'
@@ -713,8 +873,11 @@ function mostraInfArepa1 () {
 function mostraInfArepa2 () {
     divDeArepaInf.style.display = 'block'
     imageArepa2.style.display = 'block'
-    divDeArepaInf.style.top = '350px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '380px';
+    divDeArepaInf.style.top = '335px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 2.';
     imageArepa1.style.display = 'none'
     imageArepa3.style.display = 'none'
@@ -729,8 +892,11 @@ function mostraInfArepa2 () {
 function mostraInfArepa3 () {
     divDeArepaInf.style.display = 'block'
     imageArepa3.style.display = 'block'
-    divDeArepaInf.style.top = '650px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '650px';
+    divDeArepaInf.style.top = '620px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 3.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -745,8 +911,11 @@ function mostraInfArepa3 () {
 function mostraInfArepa4 () {
     divDeArepaInf.style.display = 'block'
     imageArepa4.style.display = 'block'
-    divDeArepaInf.style.top = '950px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '920px';
+    divDeArepaInf.style.top = '900px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 4.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -761,8 +930,11 @@ function mostraInfArepa4 () {
 function mostraInfArepa5 () {
     divDeArepaInf.style.display = 'block'
     imageArepa5.style.display = 'block'
-    divDeArepaInf.style.top = '1250px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1220px';
+    divDeArepaInf.style.top = '1190px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 5.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -777,8 +949,11 @@ function mostraInfArepa5 () {
 function mostraInfArepa6 () {
     divDeArepaInf.style.display = 'block'
     imageArepa6.style.display = 'block'
-    divDeArepaInf.style.top = '1550px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1480px';
+    divDeArepaInf.style.top = '1450px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 6.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -793,8 +968,11 @@ function mostraInfArepa6 () {
 function mostraInfArepa7 () {
     divDeArepaInf.style.display = 'block'
     imageArepa7.style.display = 'block'
-    divDeArepaInf.style.top = '1900px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1780px';
+    divDeArepaInf.style.top = '1750px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 7.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -809,8 +987,11 @@ function mostraInfArepa7 () {
 function mostraInfArepa8 () {
     divDeArepaInf.style.display = 'block'
     imageArepa8.style.display = 'block'
-    divDeArepaInf.style.top = '2200px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2080px';
+    divDeArepaInf.style.top = '2040px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 8.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -825,8 +1006,11 @@ function mostraInfArepa8 () {
 function mostraInfArepa9 () {
     divDeArepaInf.style.display = 'block'
     imageArepa9.style.display = 'block'
-    divDeArepaInf.style.top = '2500px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2350px';
+    divDeArepaInf.style.top = '2330px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 9.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -841,8 +1025,11 @@ function mostraInfArepa9 () {
 function mostraInfArepa10 () {
     divDeArepaInf.style.display = 'block'
     imageArepa10.style.display = 'block'
-    divDeArepaInf.style.top = '2850px';
-    divDeArepaInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2640px';
+    divDeArepaInf.style.top = '2620px';
+    divDeArepaInf.style.left = '15%';
     divDeArepaInf.textContent = 'Este es el texto del botón 10.';
     imageArepa1.style.display = 'none'
     imageArepa2.style.display = 'none'
@@ -858,8 +1045,11 @@ function mostraInfArepa10 () {
 function mostraInfPatacon1 () {
     divDePatacoInf.style.display = 'block'
     imagePataco1.style.display = 'block'
-    divDePatacoInf.style.top = '50px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '70px';
+    divDePatacoInf.style.top = '35px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 2.';
     imagePataco2.style.display = 'none'
     imagePataco3.style.display = 'none'
@@ -874,8 +1064,11 @@ function mostraInfPatacon1 () {
 function mostraInfPatacon2 () {
     divDePatacoInf.style.display = 'block'
     imagePataco2.style.display = 'block'
-    divDePatacoInf.style.top = '350px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '380px';
+    divDePatacoInf.style.top = '335px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 2.';
     imagePataco1.style.display = 'none'
     imagePataco3.style.display = 'none'
@@ -890,8 +1083,11 @@ function mostraInfPatacon2 () {
 function mostraInfPatacon3 () {
     divDePatacoInf.style.display = 'block'
     imagePataco3.style.display = 'block'
-    divDePatacoInf.style.top = '650px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '650px';
+    divDePatacoInf.style.top = '620px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 3.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -906,8 +1102,11 @@ function mostraInfPatacon3 () {
 function mostraInfPatacon4 () {
     divDePatacoInf.style.display = 'block'
     imagePataco4.style.display = 'block'
-    divDePatacoInf.style.top = '950px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '920px';
+    divDePatacoInf.style.top = '900px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 4.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -922,8 +1121,11 @@ function mostraInfPatacon4 () {
 function mostraInfPatacon5 () {
     divDePatacoInf.style.display = 'block'
     imagePataco5.style.display = 'block'
-    divDePatacoInf.style.top = '1250px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1220px';
+    divDePatacoInf.style.top = '1190px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 5.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -938,8 +1140,11 @@ function mostraInfPatacon5 () {
 function mostraInfPatacon6 () {
     divDePatacoInf.style.display = 'block'
     imagePataco6.style.display = 'block'
-    divDePatacoInf.style.top = '1550px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1480px';
+    divDePatacoInf.style.top = '1450px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 6.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -954,8 +1159,11 @@ function mostraInfPatacon6 () {
 function mostraInfPatacon7 () {
     divDePatacoInf.style.display = 'block'
     imagePataco7.style.display = 'block'
-    divDePatacoInf.style.top = '1900px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1780px';
+    divDePatacoInf.style.top = '1750px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 7.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -970,8 +1178,11 @@ function mostraInfPatacon7 () {
 function mostraInfPatacon8 () {
     divDePatacoInf.style.display = 'block'
     imagePataco8.style.display = 'block'
-    divDePatacoInf.style.top = '2200px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2080px';
+    divDePatacoInf.style.top = '2040px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 8.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -986,8 +1197,11 @@ function mostraInfPatacon8 () {
 function mostraInfPatacon9 () {
     divDePatacoInf.style.display = 'block'
     imagePataco9.style.display = 'block'
-    divDePatacoInf.style.top = '2500px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2350px';
+    divDePatacoInf.style.top = '2330px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 9.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -1002,8 +1216,11 @@ function mostraInfPatacon9 () {
 function mostraInfPatacon10 () {
     divDePatacoInf.style.display = 'block'
     imagePataco10.style.display = 'block'
-    divDePatacoInf.style.top = '2850px';
-    divDePatacoInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2640px';
+    divDePatacoInf.style.top = '2620px';
+    divDePatacoInf.style.left = '15%';
     divDePatacoInf.textContent = 'Este es el texto del botón 10.';
     imagePataco1.style.display = 'none'
     imagePataco2.style.display = 'none'
@@ -1019,9 +1236,12 @@ function mostraInfPatacon10 () {
 function mostraInfSalchipapas1 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi1.style.display = 'block'
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '70px';
     divDeSalchiInf.style.position = 'absolute';
-    divDeSalchiInf.style.top = '50px';
-    divDeSalchiInf.style.left = '400px';
+    divDeSalchiInf.style.top = '35px';
+    divDeSalchiInf.style.left = '15%';
     imageSalchi2.style.display = 'none'
     imageSalchi3.style.display = 'none'
     imageSalchi4.style.display = 'none'
@@ -1035,8 +1255,11 @@ function mostraInfSalchipapas1 () {
 function mostraInfSalchipapas2 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi2.style.display = 'block'
-    divDeSalchiInf.style.top = '350px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '380px';
+    divDeSalchiInf.style.top = '335px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 2.';
     imageSalchi1.style.display = 'none'
     imageSalchi3.style.display = 'none'
@@ -1051,8 +1274,11 @@ function mostraInfSalchipapas2 () {
 function mostraInfSalchipapas3 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi3.style.display = 'block'
-    divDeSalchiInf.style.top = '650px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '650px';
+    divDeSalchiInf.style.top = '620px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 3.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
@@ -1067,8 +1293,11 @@ function mostraInfSalchipapas3 () {
 function mostraInfSalchipapas4 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi4.style.display = 'block'
-    divDeSalchiInf.style.top = '950px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '920px';
+    divDeSalchiInf.style.top = '900px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 4.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
@@ -1083,8 +1312,11 @@ function mostraInfSalchipapas4 () {
 function mostraInfSalchipapas5 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi5.style.display = 'block'
-    divDeSalchiInf.style.top = '1250px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1220px';
+    divDeSalchiInf.style.top = '1190px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 5.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
@@ -1099,8 +1331,11 @@ function mostraInfSalchipapas5 () {
 function mostraInfSalchipapas6 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi6.style.display = 'block'
-    divDeSalchiInf.style.top = '1550px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1480px';
+    divDeSalchiInf.style.top = '1450px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 6.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
@@ -1115,8 +1350,11 @@ function mostraInfSalchipapas6 () {
 function mostraInfSalchipapas7 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi7.style.display = 'block'
-    divDeSalchiInf.style.top = '1900px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '1780px';
+    divDeSalchiInf.style.top = '1750px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 7.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
@@ -1131,8 +1369,11 @@ function mostraInfSalchipapas7 () {
 function mostraInfSalchipapas8 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi8.style.display = 'block'
-    divDeSalchiInf.style.top = '2200px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2080px';
+    divDeSalchiInf.style.top = '2040px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 8.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
@@ -1147,8 +1388,11 @@ function mostraInfSalchipapas8 () {
 function mostraInfSalchipapas9 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi9.style.display = 'block'
-    divDeSalchiInf.style.top = '2500px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2350px';
+    divDeSalchiInf.style.top = '2330px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 9.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
@@ -1163,8 +1407,11 @@ function mostraInfSalchipapas9 () {
 function mostraInfSalchipapas10 () {
     divDeSalchiInf.style.display = 'block'
     imageSalchi10.style.display = 'block'
-    divDeSalchiInf.style.top = '2850px';
-    divDeSalchiInf.style.left = '400px';
+    extCompra.style.display = 'block'
+    extCompra.style.left = '80%';
+    extCompra.style.top = '2640px';
+    divDeSalchiInf.style.top = '2620px';
+    divDeSalchiInf.style.left = '15%';
     divDeSalchiInf.textContent = 'Este es el texto del botón 10.';
     imageSalchi1.style.display = 'none'
     imageSalchi2.style.display = 'none'
