@@ -10,25 +10,31 @@ body {
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }  
-#bot-ini p {
-  font-size: 20px; 
-}
 #inicia-sec-aqui {
-  background-color: rgb(119, 119, 119);
+  background-color: rgba(119, 119, 119, 0.651);
   position: absolute;
-  left: 32%;
+  left: 30%;
   top: 225px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 475px;
-  height: 386px;
+  width: 40%;
+  height: 65vh;
   border-radius: 25px;
   overflow: hidden;
-  border: 10px solid black;
+  border: 10px solid rgb(0, 0, 0);
+}
+
+@media (max-width: 600px) {
+  #inicia-sec-aqui {
+    left: 10%;
+    width: 300px;
+    height: 400px; /* Ajusta la altura para dispositivos móviles */
+  }
+
 }
 
 .titulo {
@@ -105,7 +111,7 @@ body {
   position: relative;
   width: 120%;
   height: 240px;
-  left: -49px;
+  left: -45%;
   top: -90px;
   object-fit: contain;
 }
@@ -114,7 +120,7 @@ body {
   position: relative;
   width: 120%;
   height: 240px;
-  left: -41px;
+  left: -45%;
   top: -50px;
   object-fit: contain;
 }
@@ -123,7 +129,7 @@ body {
   position: relative;
   width: 120%;
   height: 240px;
-  left: -41px;
+  left: -45%;
   top: -20px;
   object-fit: contain;
 }
@@ -132,7 +138,7 @@ body {
   position: relative;
   width: 120%;
   height: 240px;
-  left: -41px;
+  left: -45%;
   top: -20px;
   object-fit: contain;
 }
@@ -141,9 +147,31 @@ body {
   position: relative;
   width: 120%;
   height: 240px;
-  left: -41px;
+  left: -45%;
   top: -15px;
   object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .hambur-image{
+    left: -16%;
+  }
+  .Picada-image{
+    left: -11%;
+    top: -42px;
+  }
+  .arepas-image{
+    top: -30px;
+    left: -11%;
+  }
+  .patacones-image {
+    left: -13%;
+    top: -30px;
+  }
+  .salchipapas-image {
+    top: -30px;
+    left: -16%;
+  }
 }
 
 .catalogo{
@@ -158,7 +186,7 @@ body {
 }
 .catalogo h2 {
   position: relative;
-  left: 120px;
+  left: 255px;
   top: 10px;
 }
 
@@ -592,34 +620,34 @@ body {
 
 
 #contraseña {
-  position: relative;
+  position: absolute;
   border-radius: 50px;
-  left: 120px;
-  top: -110px;
+  left: 10%;
+  top: 160px;
 }
 #letra-contraseña {
-  position: relative;
-  left: 100px;
-  top: -110px;
+  position: absolute;
+  left: 10%;
+  top: 130px;
 }
 #usuario{
-  position: relative;
+  position: absolute;
   border-radius: 50px;
-  left: 196px;
-  top: -90px;
+  left: 10%;
+  top: 70px;
 }
 #letra-usuario {
-  position: relative;
-  left: -150px;
-  top: -55px;
+  position: absolute;
+  left: 10%;
+  top: 40px;
 }
 #iniciar-secion {
   width: 128px;
   height: 50px;
-  position: relative;
+  position: absolute;
   border-radius: 50px;
-  left: -10px;
-  top: 44px;
+  left: 40%;
+  top: 330px;
   justify-content: space-evenly;
 }
 #iniciar-secion:hover {
@@ -632,11 +660,8 @@ body {
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
-}
-#salir-de-hambur p {
-  font-size: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 #salir-de-picadas {
@@ -645,11 +670,8 @@ body {
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
-}
-#salir-de-picadas p {
-  font-size: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 #salir-de-arepas {
@@ -658,35 +680,28 @@ body {
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
-#salir-de-arepas p {
-  font-size: 20px;
-}
+
 #salir-de-patacones {
   background-color: #ff0000;
     border-radius: 20px;
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
-#salir-de-patacones p {
-  font-size: 20px;
-}
+
 #salir-de-salchipapas {
   background-color: #ff0000;
     border-radius: 20px;
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
-}
-#salir-de-salchipapas p {
-  font-size: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 #salir-de-initSection {
@@ -695,11 +710,8 @@ body {
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
-}
-#salir-de-initSection p {
-  font-size: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 #salir-de-pedidos {
@@ -708,12 +720,10 @@ body {
     position: absolute;
     left: 6%;
     top: 35px;
-    width: 150px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
-#salir-de-pedidos p {
-  font-size: 20px;
-}
+
 #cerrarCompra {
   position: absolute;
   width: 50px;
