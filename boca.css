@@ -49,12 +49,12 @@ body {
 
 .tarjeta-comida {
   width: 270px;
-  height: 285px;
+  height: 271px;
   margin: 50px;
   background: #000000;
   box-sizing: border-box;
   border-radius: 70px;
-  border: 20px solid rgb(255, 196, 0);
+  border: 10px solid rgb(255, 196, 0);
   justify-content: space-evenly;
 }
 .tarjeta-comida:hover{
@@ -62,47 +62,47 @@ body {
 }
 #botonHamburguesa img {
   position: relative;
-  left: -65px;
-  top: -60px;
-  width: 112%;
-  height: 240px;
-  border-radius: 70px;
+  left: -57px;
+  top: -54px;
+  width: 106%;
+  height: 237px;
+  border-radius: 62px;
   margin: 50px;
 }
 #botonPicada img {
   position: relative;
-  left: -65px;
-  top: -60px;
-  width: 112%;
-  height: 240px;
-  border-radius: 70px;
+  left: -57px;
+  top: -54px;
+  width: 106%;
+  height: 237px;
+  border-radius: 62px;
   margin: 50px;
 }
 #botonArepa img {
   position: relative;
-  left: -65px;
-  top: -60px;
-  width: 112%;
-  height: 240px;
-  border-radius: 70px;
+  left: -57px;
+  top: -54px;
+  width: 106%;
+  height: 237px;
+  border-radius: 62px;
   margin: 50px;
 }
 #botonPatacon img {
   position: relative;
-  left: -65px;
-  top: -60px;
-  width: 112%;
-  height: 240px;
-  border-radius: 70px;
+  left: -57px;
+  top: -54px;
+  width: 106%;
+  height: 237px;
+  border-radius: 62px;
   margin: 50px;
 }
 #botonSalchi img {
   position: relative;
-  left: -65px;
-  top: -60px;
-  width: 112%;
-  height: 240px;
-  border-radius: 70px;
+  left: -57px;
+  top: -54px;
+  width: 106%;
+  height: 237px;
+  border-radius: 62px;
   margin: 50px;
 }
 
@@ -207,75 +207,126 @@ body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 196, 0);
 }
+
 #HamburImage1 {
   position: absolute;
   left: 17%;
   top: 45px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage1 {
+    width: 60%;
+  }
 }
 #HamburImage2 {
   position: absolute;
   left: 17%;
   top: 345px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage2 {
+    width: 60%;
+  }
 }
 #HamburImage3 {
   position: absolute;
   left: 17%;
   top: 630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage3 {
+    width: 60%;
+  }
 }
 #HamburImage4 {
   position: absolute;
   left: 17%;
   top: 910px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage4 {
+    width: 60%;
+  }
 }
 #HamburImage5 {
   position: absolute;
   left: 17%;
   top: 1200px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage5 {
+    width: 60%;
+  }
 }
 #HamburImage6 {
   position: absolute;
   left: 17%;
   top: 1460px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage6 {
+    width: 60%;
+  }
 }
 #HamburImage7 {
   position: absolute;
   left: 17%;
   top: 1760px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage7 {
+    width: 60%;
+  }
 }
 #HamburImage8 {
   position: absolute;
   left: 17%;
   top: 2050px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage8 {
+    width: 60%;
+  }
 }
 #HamburImage9 {
   position: absolute;
   left: 17%;
   top: 2340px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage9 {
+    width: 60%;
+  }
 }
 #HamburImage10 {
   position: absolute;
   left: 17%;
   top: 2630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
+}
+@media (max-width: 600px) {
+  #HamburImage10{
+    width: 60%;
+  }
 }
 
 #compraEInfoDePicada {
@@ -296,72 +347,122 @@ body {
   position: absolute;
   left: 17%;
   top: 45px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage1 {
+    width: 60%;
+  }
+}  
 #PicadaImage2 {
   position: absolute;
   left: 17%;
   top: 345px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage2 {
+    width: 60%;
+  }
+} 
 #PicadaImage3 {
   position: absolute;
   left: 17%;
   top: 630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage3 {
+    width: 60%;
+  }
+} 
 #PicadaImage4 {
   position: absolute;
   left: 17%;
   top: 910px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage4 {
+    width: 60%;
+  }
+} 
 #PicadaImage5 {
   position: absolute;
   left: 17%;
   top: 1200px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage5 {
+    width: 60%;
+  }
+} 
 #PicadaImage6 {
   position: absolute;
   left: 17%;
   top: 1460px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage6 {
+    width: 60%;
+  }
+} 
 #PicadaImage7 {
   position: absolute;
   left: 17%;
   top: 1760px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage7 {
+    width: 60%;
+  }
+} 
 #PicadaImage8 {
   position: absolute;
   left: 17%;
   top: 2050px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage8 {
+    width: 60%;
+  }
+} 
 #PicadaImage9 {
   position: absolute;
   left: 17%;
   top: 2340px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage9 {
+    width: 60%;
+  }
+} 
 #PicadaImage10 {
   position: absolute;
   left: 17%;
   top: 2630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PicadaImage10{
+    width: 60%;
+  }
+} 
 
 #compraEInfoDeArepa {
   position: absolute;
@@ -381,72 +482,122 @@ body {
   position: absolute;
   left: 17%;
   top: 45px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage1{
+    width: 60%;
+  }
+} 
 #ArepaImage2 {
   position: absolute;
   left: 17%;
   top: 345px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage2{
+    width: 60%;
+  }
+} 
 #ArepaImage3 {
   position: absolute;
   left: 17%;
   top: 630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage3{
+    width: 60%;
+  }
+} 
 #ArepaImage4 {
   position: absolute;
   left: 17%;
   top: 910px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage4{
+    width: 60%;
+  }
+} 
 #ArepaImage5 {
   position: absolute;
   left: 17%;
   top: 1200px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage5{
+    width: 60%;
+  }
+} 
 #ArepaImage6 {
   position: absolute;
   left: 17%;
   top: 1460px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage6{
+    width: 60%;
+  }
+} 
 #ArepaImage7 {
   position: absolute;
   left: 17%;
   top: 1760px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage7{
+    width: 60%;
+  }
+} 
 #ArepaImage8 {
   position: absolute;
   left: 17%;
   top: 2050px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage8{
+    width: 60%;
+  }
+} 
 #ArepaImage9 {
   position: absolute;
   left: 17%;
   top: 2340px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage9{
+    width: 60%;
+  }
+} 
 #ArepaImage10 {
   position: absolute;
   left: 17%;
   top: 2630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #ArepaImage10{
+    width: 60%;
+  }
+} 
 
 #compraEInfoDePatacones {
   position: absolute;
@@ -466,72 +617,122 @@ body {
   position: absolute;
   left: 17%;
   top: 45px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage1{
+    width: 60%;
+  }
+} 
 #PatacoImage2 {
   position: absolute;
   left: 17%;
   top: 345px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage2{
+    width: 60%;
+  }
+} 
 #PatacoImage3 {
   position: absolute;
   left: 17%;
   top: 630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage3{
+    width: 60%;
+  }
+} 
 #PatacoImage4 {
   position: absolute;
   left: 17%;
   top: 910px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage4{
+    width: 60%;
+  }
+} 
 #PatacoImage5 {
   position: absolute;
   left: 17%;
   top: 1200px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage5{
+    width: 60%;
+  }
+} 
 #PatacoImage6 {
   position: absolute;
   left: 17%;
   top: 1460px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage6{
+    width: 60%;
+  }
+} 
 #PatacoImage7 {
   position: absolute;
   left: 17%;
   top: 1760px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage7{
+    width: 60%;
+  }
+} 
 #PatacoImage8 {
   position: absolute;
   left: 17%;
   top: 2050px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage8{
+    width: 60%;
+  }
+} 
 #PatacoImage9 {
   position: absolute;
   left: 17%;
   top: 2340px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage9{
+    width: 60%;
+  }
+} 
 #PatacoImage10 {
   position: absolute;
   left: 17%;
   top: 2630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #PatacoImage10{
+    width: 60%;
+  }
+} 
 
 #compraEInfoDeSalchipapas {
   position: absolute;
@@ -551,72 +752,122 @@ body {
   position: absolute;
   left: 17%;
   top: 45px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage1{
+    width: 60%;
+  }
+} 
 #SalchiImage2 {
   position: absolute;
   left: 17%;
   top: 345px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage2{
+    width: 60%;
+  }
+} 
 #SalchiImage3 {
   position: absolute;
   left: 17%;
   top: 630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage3{
+    width: 60%;
+  }
+} 
 #SalchiImage4 {
   position: absolute;
   left: 17%;
   top: 910px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage4{
+    width: 60%;
+  }
+} 
 #SalchiImage5 {
   position: absolute;
   left: 17%;
   top: 1200px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage5{
+    width: 60%;
+  }
+} 
 #SalchiImage6 {
   position: absolute;
   left: 17%;
   top: 1460px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage6{
+    width: 60%;
+  }
+} 
 #SalchiImage7 {
   position: absolute;
   left: 17%;
   top: 1760px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage7{
+    width: 60%;
+  }
+} 
 #SalchiImage8 {
   position: absolute;
   left: 17%;
   top: 2050px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage8{
+    width: 60%;
+  }
+} 
 #SalchiImage9 {
   position: absolute;
   left: 17%;
   top: 2340px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage9{
+    width: 60%;
+  }
+} 
 #SalchiImage10 {
   position: absolute;
   left: 17%;
   top: 2630px;
-  width: 60%;
+  width: 30%;
   border-radius: 15px;
 }
+@media (max-width: 600px) {
+  #SalchiImage10{
+    width: 60%;
+  }
+} 
 
 
 #contraseña {

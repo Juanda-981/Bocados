@@ -99,6 +99,27 @@ sectionSecion.style.display = 'none'
 let sectionPedidos = document.getElementById('seccion-de-pedidos')
 sectionPedidos.style.display = 'none'
 
+let agreHam1 = document.getElementById('agreHambur1')
+agreHam1.style.display = 'none'
+let agreHam2 = document.getElementById('agreHambur2')
+agreHam2.style.display = 'none'
+let agreHam3 = document.getElementById('agreHambur3')
+agreHam3.style.display = 'none'
+let agreHam4 = document.getElementById('agreHambur4')
+agreHam4.style.display = 'none'
+let agreHam5 = document.getElementById('agreHambur5')
+agreHam5.style.display = 'none'
+let agreHam6 = document.getElementById('agreHambur6')
+agreHam6.style.display = 'none'
+let agreHam7 = document.getElementById('agreHambur7')
+agreHam7.style.display = 'none'
+let agreHam8 = document.getElementById('agreHambur8')
+agreHam8.style.display = 'none'
+let agreHam9 = document.getElementById('agreHambur9')
+agreHam9.style.display = 'none'
+let agreHam10 = document.getElementById('agreHambur10')
+agreHam10.style.display = 'none'
+
 let imageHambur1 = document.getElementById('HamburImage1')
 imageHambur1.style.display = 'none'
 let imageHambur2 = document.getElementById('HamburImage2')
