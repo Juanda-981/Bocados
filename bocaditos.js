@@ -120,6 +120,17 @@ agreHam9.style.display = 'none'
 let agreHam10 = document.getElementById('agreHambur10')
 agreHam10.style.display = 'none'
 
+agreHam1.addEventListener('click',mostraInfHambur1)
+agreHam2.addEventListener('click',mostraInfHambur2)
+agreHam3.addEventListener('click',mostraInfHambur3)
+agreHam4.addEventListener('click',mostraInfHambur4)
+agreHam5.addEventListener('click',mostraInfHambur5)
+agreHam6.addEventListener('click',mostraInfHambur6)
+agreHam7.addEventListener('click',mostraInfHambur7)
+agreHam8.addEventListener('click',mostraInfHambur8)
+agreHam9.addEventListener('click',mostraInfHambur9)
+agreHam10.addEventListener('click',mostraInfHambur10)
+
 let imageHambur1 = document.getElementById('HamburImage1')
 imageHambur1.style.display = 'none'
 let imageHambur2 = document.getElementById('HamburImage2')
@@ -304,6 +315,18 @@ extCompra.style.display = 'none'
     divDeArepaInf.style.display = 'none'
     divDePatacoInf.style.display = 'none'
     divDeSalchiInf.style.display = 'none'
+
+
+agreHam1.style.display = 'none'    
+agreHam2.style.display = 'none'
+agreHam3.style.display = 'none'
+agreHam4.style.display = 'none'
+agreHam5.style.display = 'none'
+agreHam6.style.display = 'none'    
+agreHam7.style.display = 'none'
+agreHam8.style.display = 'none'
+agreHam9.style.display = 'none'
+agreHam10.style.display = 'none'
 
 
 imageHambur1.style.display = 'none'
@@ -491,6 +514,16 @@ function mostrarSalchi () {
 }
 
 function mostraInfHambur1 () {
+    agreHam1.style.display = 'block'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur1.style.display = 'block'
     extCompra.style.display = 'block'
@@ -511,6 +544,17 @@ function mostraInfHambur1 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur2 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'block'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'
+    agreHam2.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur2.style.display = 'block'
     extCompra.style.display = 'block'
@@ -530,6 +574,16 @@ function mostraInfHambur2 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur3 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'
+    agreHam3.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur3.style.display = 'block'
     extCompra.style.display = 'block'
@@ -549,6 +603,16 @@ function mostraInfHambur3 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur4 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'   
+    agreHam4.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur4.style.display = 'block'
     extCompra.style.display = 'block'
@@ -568,6 +632,16 @@ function mostraInfHambur4 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur5 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'
+    agreHam5.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur5.style.display = 'block'
     extCompra.style.display = 'block'
@@ -587,6 +661,16 @@ function mostraInfHambur5 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur6 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'
+    agreHam6.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur6.style.display = 'block'
     extCompra.style.display = 'block'
@@ -606,6 +690,16 @@ function mostraInfHambur6 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur7 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'
+    agreHam7.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur7.style.display = 'block'
     extCompra.style.display = 'block'
@@ -625,6 +719,16 @@ function mostraInfHambur7 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur8 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'none'
+    agreHam8.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur8.style.display = 'block'
     extCompra.style.display = 'block'
@@ -644,6 +748,16 @@ function mostraInfHambur8 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur9 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam10.style.display = 'none'
+    agreHam9.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur9.style.display = 'block'
     extCompra.style.display = 'block'
@@ -663,6 +777,16 @@ function mostraInfHambur9 () {
     imageHambur10.style.display = 'none'
 }
 function mostraInfHambur10 () {
+    agreHam1.style.display = 'none'
+    agreHam2.style.display = 'none'
+    agreHam3.style.display = 'none'
+    agreHam4.style.display = 'none'
+    agreHam5.style.display = 'none'
+    agreHam6.style.display = 'none'
+    agreHam7.style.display = 'none'
+    agreHam8.style.display = 'none'
+    agreHam9.style.display = 'none'
+    agreHam10.style.display = 'block'
     divDeHamburguesaInf.style.display = 'block'
     imageHambur10.style.display = 'block'
     extCompra.style.display = 'block'
