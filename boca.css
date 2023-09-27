@@ -1,7 +1,7 @@
 body {
   font-size: 20px;
   background-image:url('https://i.pinimg.com/750x/57/26/b8/5726b856f5af6aa0a06f745db706a6fb.jpg');
-  background-size: cover 
+  background-repeat: repeat; 
 }    
 
 #bot-ini {
@@ -210,8 +210,8 @@ body {
 
 #agreHambur1 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 480px;
   left: 70%;
   border-radius: 10px;
@@ -219,8 +219,8 @@ body {
 }
 #agreHambur2 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 780px;
   left: 70%;
   border-radius: 5px;
@@ -228,8 +228,8 @@ body {
 }
 #agreHambur3 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 1080px;
   left: 70%;
   border-radius: 5px;
@@ -237,8 +237,8 @@ body {
 }
 #agreHambur4 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 1380px;
   left: 70%;
   border-radius: 5px;
@@ -246,8 +246,8 @@ body {
 }
 #agreHambur5 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 1640px;
   left: 70%;
   border-radius: 5px;
@@ -255,8 +255,8 @@ body {
 }
 #agreHambur6 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 1900px;
   left: 70%;
   border-radius: 5px;
@@ -264,8 +264,8 @@ body {
 }
 #agreHambur7 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 2200px;
   left: 70%;
   border-radius: 5px;
@@ -273,8 +273,8 @@ body {
 }
 #agreHambur8 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 2500px;
   left: 70%;
   border-radius: 5px;
@@ -282,8 +282,8 @@ body {
 }
 #agreHambur9 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
   top: 2780px;
   left: 70%;
   border-radius: 5px;
@@ -291,8 +291,372 @@ body {
 }
 #agreHambur10 {
   position: absolute;
-  width: 6%;
-  height: 40px;
+  width: 11%;
+  height: 56px;
+  top: 3080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+
+#agrePica1 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 480px;
+  left: 70%;
+  border-radius: 10px;
+  background-color: #09ff00;
+}
+#agrePica2 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica3 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica4 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1380px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica5 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1640px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica6 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1900px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica7 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2200px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica8 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2500px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica9 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePica10 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 3080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+
+#agreArepa1 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 480px;
+  left: 70%;
+  border-radius: 10px;
+  background-color: #09ff00;
+}
+#agreArepa2 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa3 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa4 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1380px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa5 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1640px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa6 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1900px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa7 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2200px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa8 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2500px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa9 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreArepa10 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 3080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+
+#agrePataco1 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 480px;
+  left: 70%;
+  border-radius: 10px;
+  background-color: #09ff00;
+}
+#agrePataco2 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco3 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco4 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1380px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco5 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1640px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco6 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1900px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco7 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2200px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco8 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2500px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco9 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agrePataco10 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 3080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+
+#agreSalchi1 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 480px;
+  left: 70%;
+  border-radius: 10px;
+  background-color: #09ff00;
+}
+#agreSalchi2 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi3 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1080px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi4 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1380px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi5 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1640px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi6 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 1900px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi7 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2200px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi8 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2500px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi9 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
+  top: 2780px;
+  left: 70%;
+  border-radius: 5px;
+  background-color: #09ff00;
+}
+#agreSalchi10 {
+  position: absolute;
+  width: 11%;
+  height: 56px;
   top: 3080px;
   left: 70%;
   border-radius: 5px;
@@ -1073,4 +1437,38 @@ body {
   border-radius: 30px;
   border: 5px solid rgb(44, 44, 44);
   background-color: #ff0000;
+}
+
+#botonSesionRestorant1 {
+  color: white;
+  border: 5px solid white;
+  background-color: rgba(119, 119, 119, 0.651);
+  position: absolute;
+  top: 150px;
+  left: 530px;
+  width: 22%;
+  height: 162px;
+  border-radius: 35px;
+  font-size: 16px;
+  transition: transform 0.3s
+}
+#botonSesionRestorant1:hover {
+  transform: scale(1.1);
+}
+
+#botonSesionRestorant2 {
+  color: white;
+  border: 5px solid white;
+  background-color: rgba(119, 119, 119, 0.651);
+  position: absolute;
+  top: 380px;
+  left: 530px;
+  width: 22%;
+  height: 162px;
+  border-radius: 35px;
+  font-size: 16px;
+  transition: transform 0.3s
+}
+#botonSesionRestorant2:hover {
+  transform: scale(1.1);
 }

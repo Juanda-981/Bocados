@@ -120,6 +120,90 @@ agreHam9.style.display = 'none'
 let agreHam10 = document.getElementById('agreHambur10')
 agreHam10.style.display = 'none'
 
+let agrePicad1 = document.getElementById('agrePica1') 
+agrePicad1.style.display = 'none'
+let agrePicad2 = document.getElementById('agrePica2') 
+agrePicad2.style.display = 'none'
+let agrePicad3 = document.getElementById('agrePica3') 
+agrePicad3.style.display = 'none'
+let agrePicad4 = document.getElementById('agrePica4') 
+agrePicad4.style.display = 'none'
+let agrePicad5 = document.getElementById('agrePica5') 
+agrePicad5.style.display = 'none'
+let agrePicad6 = document.getElementById('agrePica6') 
+agrePicad6.style.display = 'none'
+let agrePicad7 = document.getElementById('agrePica7') 
+agrePicad7.style.display = 'none'
+let agrePicad8 = document.getElementById('agrePica8') 
+agrePicad8.style.display = 'none'
+let agrePicad9 = document.getElementById('agrePica9') 
+agrePicad9.style.display = 'none'
+let agrePicad10 = document.getElementById('agrePica10') 
+agrePicad10.style.display = 'none'
+
+let agreArepi1 = document.getElementById('agreArepa1')
+agreArepi1.style.display = 'none'
+let agreArepi2 = document.getElementById('agreArepa2')
+agreArepi2.style.display = 'none'
+let agreArepi3 = document.getElementById('agreArepa3')
+agreArepi3.style.display = 'none'
+let agreArepi4 = document.getElementById('agreArepa4')
+agreArepi4.style.display = 'none'
+let agreArepi5 = document.getElementById('agreArepa5')
+agreArepi5.style.display = 'none'
+let agreArepi6 = document.getElementById('agreArepa6')
+agreArepi6.style.display = 'none'
+let agreArepi7 = document.getElementById('agreArepa7')
+agreArepi7.style.display = 'none'
+let agreArepi8 = document.getElementById('agreArepa8')
+agreArepi8.style.display = 'none'
+let agreArepi9 = document.getElementById('agreArepa9')
+agreArepi9.style.display = 'none'
+let agreArepi10 = document.getElementById('agreArepa10')
+agreArepi10.style.display = 'none'
+
+let agrePat1 = document.getElementById ('agrePataco1')
+agrePat1.style.display = 'none'
+let agrePat2 = document.getElementById ('agrePataco2')
+agrePat2.style.display = 'none'
+let agrePat3 = document.getElementById ('agrePataco3')
+agrePat3.style.display = 'none'
+let agrePat4 = document.getElementById ('agrePataco4')
+agrePat4.style.display = 'none'
+let agrePat5 = document.getElementById ('agrePataco5')
+agrePat5.style.display = 'none'
+let agrePat6 = document.getElementById ('agrePataco6')
+agrePat6.style.display = 'none'
+let agrePat7 = document.getElementById ('agrePataco7')
+agrePat7.style.display = 'none'
+let agrePat8 = document.getElementById ('agrePataco8')
+agrePat8.style.display = 'none'
+let agrePat9 = document.getElementById ('agrePataco9')
+agrePat9.style.display = 'none'
+let agrePat10 = document.getElementById ('agrePataco10')
+agrePat10.style.display = 'none'
+
+let agreSalch1 = document.getElementById ('agreSalchi1')
+agreSalch1.style.display = 'none'
+let agreSalch2 = document.getElementById ('agreSalchi2')
+agreSalch2.style.display = 'none'
+let agreSalch3 = document.getElementById ('agreSalchi3')
+agreSalch3.style.display = 'none'
+let agreSalch4 = document.getElementById ('agreSalchi4')
+agreSalch4.style.display = 'none'
+let agreSalch5 = document.getElementById ('agreSalchi5')
+agreSalch5.style.display = 'none'
+let agreSalch6 = document.getElementById ('agreSalchi6')
+agreSalch6.style.display = 'none'
+let agreSalch7 = document.getElementById ('agreSalchi7')
+agreSalch7.style.display = 'none'
+let agreSalch8 = document.getElementById ('agreSalchi8')
+agreSalch8.style.display = 'none'
+let agreSalch9 = document.getElementById ('agreSalchi9')
+agreSalch9.style.display = 'none'
+let agreSalch10 = document.getElementById ('agreSalchi10')
+agreSalch10.style.display = 'none'
+
 agreHam1.addEventListener('click',mostraInfHambur1)
 agreHam2.addEventListener('click',mostraInfHambur2)
 agreHam3.addEventListener('click',mostraInfHambur3)
@@ -130,6 +214,50 @@ agreHam7.addEventListener('click',mostraInfHambur7)
 agreHam8.addEventListener('click',mostraInfHambur8)
 agreHam9.addEventListener('click',mostraInfHambur9)
 agreHam10.addEventListener('click',mostraInfHambur10)
+
+agrePicad1.addEventListener('click',mostraInfPicada1)
+agrePicad2.addEventListener('click',mostraInfPicada2)
+agrePicad3.addEventListener('click',mostraInfPicada3)
+agrePicad4.addEventListener('click',mostraInfPicada4)
+agrePicad5.addEventListener('click',mostraInfPicada5)
+agrePicad6.addEventListener('click',mostraInfPicada6)
+agrePicad7.addEventListener('click',mostraInfPicada7)
+agrePicad8.addEventListener('click',mostraInfPicada8)
+agrePicad9.addEventListener('click',mostraInfPicada9)
+agrePicad10.addEventListener('click',mostraInfPicada10)
+
+agreArepi1.addEventListener('click',mostraInfArepa1)
+agreArepi2.addEventListener('click',mostraInfArepa2)
+agreArepi3.addEventListener('click',mostraInfArepa3)
+agreArepi4.addEventListener('click',mostraInfArepa4)
+agreArepi5.addEventListener('click',mostraInfArepa5)
+agreArepi6.addEventListener('click',mostraInfArepa6)
+agreArepi7.addEventListener('click',mostraInfArepa7)
+agreArepi8.addEventListener('click',mostraInfArepa8)
+agreArepi9.addEventListener('click',mostraInfArepa9)
+agreArepi10.addEventListener('click',mostraInfArepa10)
+
+agrePat1.addEventListener('click',mostraInfPatacon1)
+agrePat2.addEventListener('click',mostraInfPatacon2)
+agrePat3.addEventListener('click',mostraInfPatacon3)
+agrePat4.addEventListener('click',mostraInfPatacon4)
+agrePat5.addEventListener('click',mostraInfPatacon5)
+agrePat6.addEventListener('click',mostraInfPatacon6)
+agrePat7.addEventListener('click',mostraInfPatacon7)
+agrePat8.addEventListener('click',mostraInfPatacon8)
+agrePat9.addEventListener('click',mostraInfPatacon9)
+agrePat10.addEventListener('click',mostraInfPatacon10)
+
+agreSalch1.addEventListener('click',mostraInfSalchipapas1)
+agreSalch2.addEventListener('click',mostraInfSalchipapas2)
+agreSalch3.addEventListener('click',mostraInfSalchipapas3)
+agreSalch4.addEventListener('click',mostraInfSalchipapas4)
+agreSalch5.addEventListener('click',mostraInfSalchipapas5)
+agreSalch6.addEventListener('click',mostraInfSalchipapas6)
+agreSalch7.addEventListener('click',mostraInfSalchipapas7)
+agreSalch8.addEventListener('click',mostraInfSalchipapas8)
+agreSalch9.addEventListener('click',mostraInfSalchipapas9)
+agreSalch10.addEventListener('click',mostraInfSalchipapas10)
 
 let imageHambur1 = document.getElementById('HamburImage1')
 imageHambur1.style.display = 'none'
@@ -328,6 +456,49 @@ agreHam8.style.display = 'none'
 agreHam9.style.display = 'none'
 agreHam10.style.display = 'none'
 
+agrePicad1.style.display = 'none'
+agrePicad2.style.display = 'none'
+agrePicad3.style.display = 'none'
+agrePicad4.style.display = 'none'
+agrePicad5.style.display = 'none'
+agrePicad6.style.display = 'none'
+agrePicad7.style.display = 'none'
+agrePicad8.style.display = 'none'
+agrePicad9.style.display = 'none'
+agrePicad10.style.display = 'none'
+
+agreArepi1.style,display = 'none'
+agreArepi2.style,display = 'none'
+agreArepi3.style,display = 'none'
+agreArepi4.style,display = 'none'
+agreArepi5.style,display = 'none'
+agreArepi6.style,display = 'none'
+agreArepi7.style,display = 'none'
+agreArepi8.style,display = 'none'
+agreArepi9.style,display = 'none'
+agreArepi10.style,display = 'none'
+
+agrePat1.style.display = 'none'
+agrePat2.style.display = 'none'
+agrePat3.style.display = 'none'
+agrePat4.style.display = 'none'
+agrePat5.style.display = 'none'
+agrePat6.style.display = 'none'
+agrePat7.style.display = 'none'
+agrePat8.style.display = 'none'
+agrePat9.style.display = 'none'
+agrePat10.style.display = 'none'
+
+agreSalch1.style.display = 'none'
+agreSalch2.style.display = 'none'
+agreSalch3.style.display = 'none'
+agreSalch4.style.display = 'none'
+agreSalch5.style.display = 'none'
+agreSalch6.style.display = 'none'
+agreSalch7.style.display = 'none'
+agreSalch8.style.display = 'none'
+agreSalch9.style.display = 'none'
+agreSalch10.style.display = 'none'
 
 imageHambur1.style.display = 'none'
 imageHambur2.style.display = 'none'
@@ -386,6 +557,16 @@ imageSalchi10.style.display = 'none'
 }
 
 function salirDeHamburguesas () {
+agreHam1.style.display = 'none'    
+agreHam2.style.display = 'none'
+agreHam3.style.display = 'none'
+agreHam4.style.display = 'none'
+agreHam5.style.display = 'none'
+agreHam6.style.display = 'none'    
+agreHam7.style.display = 'none'
+agreHam8.style.display = 'none'
+agreHam9.style.display = 'none'
+agreHam10.style.display = 'none'
     divDeHamburguesaInf.style.display = 'none'
     extCompra.style.display = 'none'
     sectionHambur.style.display = 'none'
@@ -403,6 +584,16 @@ function salirDeHamburguesas () {
     imageHambur10.style.display = 'none'
 }
 function salirDePicada () {
+agrePicad1.style.display = 'none'
+agrePicad2.style.display = 'none'
+agrePicad3.style.display = 'none'
+agrePicad4.style.display = 'none'
+agrePicad5.style.display = 'none'
+agrePicad6.style.display = 'none'
+agrePicad7.style.display = 'none'
+agrePicad8.style.display = 'none'
+agrePicad9.style.display = 'none'
+agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'none'
     extCompra.style.display = 'none'
     sectionPicada.style.display = 'none'
@@ -420,6 +611,16 @@ function salirDePicada () {
     imagePicada10.style.display = 'none'
 }
 function salirDeArepa () {
+agreArepi1.style,display = 'none'
+agreArepi2.style,display = 'none'
+agreArepi3.style,display = 'none'
+agreArepi4.style,display = 'none'
+agreArepi5.style,display = 'none'
+agreArepi6.style,display = 'none'
+agreArepi7.style,display = 'none'
+agreArepi8.style,display = 'none'
+agreArepi9.style,display = 'none'
+agreArepi10.style,display = 'none'
     divDeArepaInf.style.display = 'none'
     extCompra.style.display = 'none'
     sectionArepa.style.display = 'none'
@@ -437,6 +638,16 @@ function salirDeArepa () {
     imageArepa10.style.display = 'none'
 }
 function salirDePatacones () {
+agrePat1.style.display = 'none'
+agrePat2.style.display = 'none'
+agrePat3.style.display = 'none'
+agrePat4.style.display = 'none'
+agrePat5.style.display = 'none'
+agrePat6.style.display = 'none'
+agrePat7.style.display = 'none'
+agrePat8.style.display = 'none'
+agrePat9.style.display = 'none'
+agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'none'
     extCompra.style.display = 'none'
     sectionPatacones.style.display = 'none'
@@ -454,6 +665,16 @@ function salirDePatacones () {
     imagePataco10.style.display = 'none'
 }
 function salirDeSalchipapas () {
+agreSalch1.style.display = 'none'
+agreSalch2.style.display = 'none'
+agreSalch3.style.display = 'none'
+agreSalch4.style.display = 'none'
+agreSalch5.style.display = 'none'
+agreSalch6.style.display = 'none'
+agreSalch7.style.display = 'none'
+agreSalch8.style.display = 'none'
+agreSalch9.style.display = 'none'
+agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'none'
     extCompra.style.display = 'none'
     sectionSalchipaps.style.display = 'none'
@@ -807,6 +1028,16 @@ function mostraInfHambur10 () {
 }
 
 function mostraInfPicada1 () {
+    agrePicad1.style.display = 'block'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada1.style.display = 'block'
     extCompra.style.display = 'block'
@@ -826,6 +1057,16 @@ function mostraInfPicada1 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada2 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'block'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada2.style.display = 'block'
     extCompra.style.display = 'block'
@@ -845,6 +1086,16 @@ function mostraInfPicada2 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada3 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'block'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada3.style.display = 'block'
     extCompra.style.display = 'block'
@@ -864,6 +1115,16 @@ function mostraInfPicada3 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada4 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'block'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada4.style.display = 'block'
     extCompra.style.display = 'block'
@@ -883,6 +1144,16 @@ function mostraInfPicada4 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada5 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'block'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada5.style.display = 'block'
     extCompra.style.display = 'block'
@@ -902,6 +1173,16 @@ function mostraInfPicada5 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada6 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'block'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada6.style.display = 'block'
     extCompra.style.display = 'block'
@@ -921,6 +1202,16 @@ function mostraInfPicada6 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada7 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'block'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada7.style.display = 'block'
     extCompra.style.display = 'block'
@@ -940,6 +1231,16 @@ function mostraInfPicada7 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada8 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'block'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada8.style.display = 'block'
     extCompra.style.display = 'block'
@@ -959,6 +1260,16 @@ function mostraInfPicada8 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada9 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'block'
+    agrePicad10.style.display = 'none'
     divDePicadaInf.style.display = 'block'
     imagePicada9.style.display = 'block'
     extCompra.style.display = 'block'
@@ -978,6 +1289,16 @@ function mostraInfPicada9 () {
     imagePicada10.style.display = 'none'
 }
 function mostraInfPicada10 () {
+    agrePicad1.style.display = 'none'
+    agrePicad2.style.display = 'none'
+    agrePicad3.style.display = 'none'
+    agrePicad4.style.display = 'none'
+    agrePicad5.style.display = 'none'
+    agrePicad6.style.display = 'none'
+    agrePicad7.style.display = 'none'
+    agrePicad8.style.display = 'none'
+    agrePicad9.style.display = 'none'
+    agrePicad10.style.display = 'block'
     divDePicadaInf.style.display = 'block'
     imagePicada10.style.display = 'block'
     extCompra.style.display = 'block'
@@ -998,6 +1319,16 @@ function mostraInfPicada10 () {
 }
 
 function mostraInfArepa1 () {
+    agreArepi1.style.display = 'block'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa1.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1016,6 +1347,16 @@ function mostraInfArepa1 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa2 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'block'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa2.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1035,6 +1376,16 @@ function mostraInfArepa2 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa3 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'block'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa3.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1054,6 +1405,16 @@ function mostraInfArepa3 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa4 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'block'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa4.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1073,6 +1434,16 @@ function mostraInfArepa4 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa5 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'block'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa5.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1092,6 +1463,16 @@ function mostraInfArepa5 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa6 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'block'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa6.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1111,6 +1492,16 @@ function mostraInfArepa6 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa7 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'block'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa7.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1130,6 +1521,16 @@ function mostraInfArepa7 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa8 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'block'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa8.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1149,6 +1550,16 @@ function mostraInfArepa8 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa9 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'block'
+    agreArepi10.style.display = 'none'
     divDeArepaInf.style.display = 'block'
     imageArepa9.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1168,6 +1579,16 @@ function mostraInfArepa9 () {
     imageArepa10.style.display = 'none'
 }
 function mostraInfArepa10 () {
+    agreArepi1.style.display = 'none'
+    agreArepi2.style.display = 'none'
+    agreArepi3.style.display = 'none'
+    agreArepi4.style.display = 'none'
+    agreArepi5.style.display = 'none'
+    agreArepi6.style.display = 'none'
+    agreArepi7.style.display = 'none'
+    agreArepi8.style.display = 'none'
+    agreArepi9.style.display = 'none'
+    agreArepi10.style.display = 'block'
     divDeArepaInf.style.display = 'block'
     imageArepa10.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1188,6 +1609,16 @@ function mostraInfArepa10 () {
 }
 
 function mostraInfPatacon1 () {
+    agrePat1.style.display = 'block'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco1.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1207,6 +1638,16 @@ function mostraInfPatacon1 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon2 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'block'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco2.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1226,6 +1667,16 @@ function mostraInfPatacon2 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon3 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'block'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco3.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1245,6 +1696,16 @@ function mostraInfPatacon3 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon4 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'block'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco4.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1264,6 +1725,16 @@ function mostraInfPatacon4 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon5 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'block'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco5.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1283,6 +1754,16 @@ function mostraInfPatacon5 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon6 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'block'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco6.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1302,6 +1783,16 @@ function mostraInfPatacon6 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon7 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'block'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco7.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1321,6 +1812,16 @@ function mostraInfPatacon7 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon8 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'block'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco8.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1340,6 +1841,16 @@ function mostraInfPatacon8 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon9 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'block'
+    agrePat10.style.display = 'none'
     divDePatacoInf.style.display = 'block'
     imagePataco9.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1359,6 +1870,16 @@ function mostraInfPatacon9 () {
     imagePataco10.style.display = 'none'
 }
 function mostraInfPatacon10 () {
+    agrePat1.style.display = 'none'
+    agrePat2.style.display = 'none'
+    agrePat3.style.display = 'none'
+    agrePat4.style.display = 'none'
+    agrePat5.style.display = 'none'
+    agrePat6.style.display = 'none'
+    agrePat7.style.display = 'none'
+    agrePat8.style.display = 'none'
+    agrePat9.style.display = 'none'
+    agrePat10.style.display = 'block'
     divDePatacoInf.style.display = 'block'
     imagePataco10.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1379,6 +1900,16 @@ function mostraInfPatacon10 () {
 }
 
 function mostraInfSalchipapas1 () {
+    agreSalch1.style.display = 'block'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi1.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1398,6 +1929,16 @@ function mostraInfSalchipapas1 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas2 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'block'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi2.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1417,6 +1958,16 @@ function mostraInfSalchipapas2 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas3 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'block'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi3.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1436,6 +1987,16 @@ function mostraInfSalchipapas3 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas4 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'block'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi4.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1455,6 +2016,16 @@ function mostraInfSalchipapas4 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas5 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'block'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi5.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1474,6 +2045,16 @@ function mostraInfSalchipapas5 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas6 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'block'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi6.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1493,6 +2074,16 @@ function mostraInfSalchipapas6 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas7 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'block'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi7.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1512,6 +2103,16 @@ function mostraInfSalchipapas7 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas8 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'block'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi8.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1531,6 +2132,16 @@ function mostraInfSalchipapas8 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas9 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'block'
+    agreSalch10.style.display = 'none'
     divDeSalchiInf.style.display = 'block'
     imageSalchi9.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1550,6 +2161,16 @@ function mostraInfSalchipapas9 () {
     imageSalchi10.style.display = 'none'
 }
 function mostraInfSalchipapas10 () {
+    agreSalch1.style.display = 'none'
+    agreSalch2.style.display = 'none'
+    agreSalch3.style.display = 'none'
+    agreSalch4.style.display = 'none'
+    agreSalch5.style.display = 'none'
+    agreSalch6.style.display = 'none'
+    agreSalch7.style.display = 'none'
+    agreSalch8.style.display = 'none'
+    agreSalch9.style.display = 'none'
+    agreSalch10.style.display = 'block'
     divDeSalchiInf.style.display = 'block'
     imageSalchi10.style.display = 'block'
     extCompra.style.display = 'block'
@@ -1570,8 +2191,8 @@ function mostraInfSalchipapas10 () {
 }
 
 function contraVerifi(){
- let contraseña="Bocados-Nemococo"
- let user="Dilan-Bocados.com"
+ let contraseña="juanito"
+ let user="juanito"
 
  if(document.form.password.value==contraseña && document.form.login.value==user){
     sectionSecion.style.display = 'none'
