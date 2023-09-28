@@ -1353,9 +1353,15 @@ body {
   position: absolute;
   border-radius: 50px;
   left: 40%;
-  top: 330px;
+  top: 230px;
   justify-content: space-evenly;
 }
+@media (max-width: 600px) {
+  #iniciar-secion {
+    left: 30%;
+    top: 230px;
+  }
+} 
 #iniciar-secion:hover {
   background-color: #09ff00;
 }
@@ -1483,4 +1489,15 @@ body {
 } 
 #botonSesionRestorant2:hover {
   transform: scale(1.1);
+}
+
+.nuevo-div {
+  width: 80%;
+  height: 225px;
+  border-radius: 50px;
+  margin: 30px;
+  color: rgba(85, 85, 85, 0.527);
+  background-color: #000000;
+  border: 10px solid rgb(255, 196, 0);
+  overflow: hidden;
 }

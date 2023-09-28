@@ -83,6 +83,15 @@ let extCompra = document.getElementById('cerrarCompra')
 extCompra.style.display = 'none'
 
 let sectionPrin = document.getElementById('tarjetas_comidas')
+let sectionPedidosEnRestorant = document.getElementById('pedidosRestaurante')
+sectionPedidosEnRestorant.style.display = 'none'
+let sectionPedidosFueraRestaurante = document.getElementById('pedidosFueraDeRestaurante')
+sectionPedidosFueraRestaurante.style.display = 'none'
+
+let botonEnterPedidRest = document.getElementById('botonSesionRestorant1')
+let botonEnterPedidosFuera = document.getElementById('botonSesionRestorant2')
+botonEnterPedidRest.addEventListener('click',enterPedidosRestorant)
+botonEnterPedidosFuera.addEventListener('click',enterPedidosExitRestorant)
 
 let sectionHambur = document.getElementById('catHamburguesas')
 sectionHambur.style.display = 'none'
@@ -100,6 +109,7 @@ let sectionPedidos = document.getElementById('seccion-de-pedidos')
 sectionPedidos.style.display = 'none'
 
 let agreHam1 = document.getElementById('agreHambur1')
+agreHam1.addEventListener('click',crearPedidHambur1)
 agreHam1.style.display = 'none'
 let agreHam2 = document.getElementById('agreHambur2')
 agreHam2.style.display = 'none'
@@ -434,6 +444,27 @@ botonArepaIni.addEventListener('click', mostrarArepa )
 botonPataconIni.addEventListener('click', mostrarPatacones)
 botonSalchiIni.addEventListener('click', mostrarSalchi)
 botonDeiniciarSecion.addEventListener('click', initSection)
+
+
+function crearPedidHambur1 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa1';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+};
+
+
+
+function enterPedidosRestorant () {
+    sectionPedidos.style.display = 'none'
+    sectionPedidosEnRestorant.style.display = 'block'
+}
+function enterPedidosExitRestorant () {
+    sectionPedidos.style.display = 'none'
+    sectionPedidosFueraRestaurante.style.display = 'block'
+}
 
 function salirInfoCompra () {
 extCompra.style.display = 'none'
