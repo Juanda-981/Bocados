@@ -71,6 +71,11 @@ divDePatacoInf.style.display = 'none'
 let divDeSalchiInf = document.getElementById('compraEInfoDeSalchipapas')
 divDeSalchiInf.style.display = 'none'
 
+let MyPedid = document.getElementById('verMyPedido')
+MyPedid.style.display = 'none'
+
+let closeMiCarrito = document.getElementById('closeDivMiCarrito')
+closeMiCarrito.addEventListener('click',crerrarCarrito)
 
 let extCatHambur = document.getElementById('salir-de-hambur')
 let extCatPicada = document.getElementById('salir-de-picadas')
@@ -82,6 +87,7 @@ let extVerifiedcuenta = document.getElementById('salir-de-pedidos')
 let extCompra = document.getElementById('cerrarCompra')
 extCompra.style.display = 'none'
 let carritoPedid = document.getElementById('button-pedidos')
+carritoPedid.addEventListener('click',mostraPedid)
 carritoPedid.style.display = 'none'
 
 let exitPedidRestorant = document.getElementById('salir-de-Peid-restorant')
@@ -116,35 +122,54 @@ let sectionPedidos = document.getElementById('seccion-de-pedidos')
 sectionPedidos.style.display = 'none'
 
 let agreHam1 = document.getElementById('agreHambur1')
-agreHam1.addEventListener('click',crearPedidHambur1)
 agreHam1.style.display = 'none'
+agreHam1.addEventListener('click',crearPedidHambur1)
+agreHam1.addEventListener('click',crearPedidHamburParaSecPedid1)
+
 let agreHam2 = document.getElementById('agreHambur2')
 agreHam2.style.display = 'none'
 agreHam2.addEventListener('click',crearPedidHambur2)
+agreHam2.addEventListener('click',crearPedidHamburParaSecPedid2)
+
 let agreHam3 = document.getElementById('agreHambur3')
 agreHam3.style.display = 'none'
 agreHam3.addEventListener('click',crearPedidHambur3)
+agreHam3.addEventListener('click',crearPedidHamburParaSecPedid3)
+
 let agreHam4 = document.getElementById('agreHambur4')
 agreHam4.style.display = 'none'
 agreHam4.addEventListener('click',crearPedidHambur4)
+agreHam4.addEventListener('click',crearPedidHamburParaSecPedid4)
+
 let agreHam5 = document.getElementById('agreHambur5')
 agreHam5.style.display = 'none'
 agreHam5.addEventListener('click',crearPedidHambur5)
+agreHam5.addEventListener('click',crearPedidHamburParaSecPedid5)
+
 let agreHam6 = document.getElementById('agreHambur6')
 agreHam6.style.display = 'none'
 agreHam6.addEventListener('click',crearPedidHambur6)
+agreHam6.addEventListener('click',crearPedidHamburParaSecPedid6)
+
 let agreHam7 = document.getElementById('agreHambur7')
 agreHam7.style.display = 'none'
 agreHam7.addEventListener('click',crearPedidHambur7)
+agreHam7.addEventListener('click',crearPedidHamburParaSecPedid7)
+
 let agreHam8 = document.getElementById('agreHambur8')
 agreHam8.style.display = 'none'
 agreHam8.addEventListener('click',crearPedidHambur8)
+agreHam8.addEventListener('click',crearPedidHamburParaSecPedid8)
+
 let agreHam9 = document.getElementById('agreHambur9')
 agreHam9.style.display = 'none'
 agreHam9.addEventListener('click',crearPedidHambur9)
+agreHam9.addEventListener('click',crearPedidHamburParaSecPedid9)
+
 let agreHam10 = document.getElementById('agreHambur10')
 agreHam10.style.display = 'none'
 agreHam10.addEventListener('click',crearPedidHambur10)
+agreHam10.addEventListener('click',crearPedidHamburParaSecPedid10)
 
 let agrePicad1 = document.getElementById('agrePica1') 
 agrePicad1.style.display = 'none'
@@ -462,22 +487,32 @@ botonSalchiIni.addEventListener('click', mostrarSalchi)
 botonDeiniciarSecion.addEventListener('click', initSection)
 
 
+function crerrarCarrito () {
+    MyPedid.style.display = 'none'
+}
+
+function mostraPedid () {
+    MyPedid.style.display = 'block'
+}
+
+
 function crearPedidHambur1 () {
     // Crear un nuevo div
     var nuevoDiv = document.createElement('div');
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa1';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
+
 function crearPedidHambur2 () {
     // Crear un nuevo div
     var nuevoDiv = document.createElement('div');
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa2';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur3 () {
@@ -486,7 +521,7 @@ function crearPedidHambur3 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa3';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur4 () {
@@ -495,7 +530,7 @@ function crearPedidHambur4 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa4';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur5 () {
@@ -504,7 +539,7 @@ function crearPedidHambur5 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa5';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur6 () {
@@ -513,7 +548,7 @@ function crearPedidHambur6 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa6';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur7 () {
@@ -522,7 +557,7 @@ function crearPedidHambur7 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa7';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur8 () {
@@ -531,7 +566,7 @@ function crearPedidHambur8 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa8';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur9 () {
@@ -540,7 +575,7 @@ function crearPedidHambur9 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa9';
     // Agregar el nuevo div a la sección 2
-    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    MyPedid.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 function crearPedidHambur10 () {
@@ -549,10 +584,101 @@ function crearPedidHambur10 () {
     nuevoDiv.className = 'nuevo-div';
     nuevoDiv.textContent = 'hamburguesa10';
     // Agregar el nuevo div a la sección 2
+    MyPedid.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+
+function crearPedidHamburParaSecPedid1 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa1';
+    // Agregar el nuevo div a la sección 2
     sectionPedidosEnRestorant.appendChild(nuevoDiv);
     carritoPedid.style.display = 'block'
 };
 
+function crearPedidHamburParaSecPedid2 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa2';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid3 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa3';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid4 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa4';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid5 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa5';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid6 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa6';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid7 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa7';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid8 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa8';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid9 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa9';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
+function crearPedidHamburParaSecPedid10 () {
+    // Crear un nuevo div
+    var nuevoDiv = document.createElement('div');
+    nuevoDiv.className = 'nuevo-div';
+    nuevoDiv.textContent = 'hamburguesa10';
+    // Agregar el nuevo div a la sección 2
+    sectionPedidosEnRestorant.appendChild(nuevoDiv);
+    carritoPedid.style.display = 'block'
+};
 
 
 function enterPedidosRestorant () {

@@ -7,14 +7,24 @@ body {
 #button-pedidos {
   background-color: #000000;
   border-radius: 30px;
-  position: absolute;
-  left: 85%;
+  position: fixed;
+  left: 88%;
   top: 35px;
   width: 50px;
   height: 50px;
   border: 3px solid rgb(255, 94, 0);
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  #button-pedidos {
+    left: 85%;
+    top: 35px;
+    width: 50px;
+    height: 50px;
+  } 
+}
+
 #button-pedidos img {
   width: 100%;
   height: auto;
@@ -22,14 +32,22 @@ body {
 }
 
 #bot-ini {
-    background-color: #09ff00;
-    border-radius: 20px;
-    position: absolute;
-    left: 6%;
-    top: 35px;
-    width: 50px;
-    height: 50px;
+  background-color: #09ff00;
+  border-radius: 20px;
+  position: absolute;
+  left: 6%;
+  top: 35px;
+  width: 50px;
+  height: 50px;
 }  
+@media (max-width: 600px) {
+  #bot-ini {
+  left: 6%;
+  top: 7px;
+  width: 50px;
+  height: 50px;
+  }  
+}
 #inicia-sec-aqui {
   background-color: rgba(119, 119, 119, 0.651);
   position: absolute;
@@ -51,18 +69,19 @@ body {
     width: 300px;
     height: 400px; /* Ajusta la altura para dispositivos móviles */
   }
-
 }
 
 .titulo {
-    color: rgb(255, 196, 0);
-    font-size: 72px;
-    font-family: 'Fredoka One', cursive;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
+  color: rgb(255, 196, 0);
+  font-size: 72px;
+  font-family: 'Fredoka One', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
+
+
 
 .tarjeta-comida {
   width: 270px;
@@ -1393,15 +1412,26 @@ body {
     height: 50px;
 }
 
+@media (max-width: 600px) {
+  #salir-de-hambur {
+    top: 7px;
+  }
+} 
+
 #salir-de-picadas {
   background-color: #ff0000;
-    border-radius: 20px;
-    position: absolute;
-    left: 6%;
-    top: 35px;
-    width: 50px;
-    height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  left: 6%;
+  top: 35px;
+  width: 50px;
+  height: 50px;
 }
+@media (max-width: 600px) {
+  #salir-de-picadas {
+    top: 7px;
+  }
+} 
 
 #salir-de-arepas {
   background-color: #ff0000;
@@ -1412,6 +1442,11 @@ body {
     width: 50px;
     height: 50px;
 }
+@media (max-width: 600px) {
+  #salir-de-arepas {
+    top: 7px;
+  }
+} 
 
 #salir-de-patacones {
   background-color: #ff0000;
@@ -1422,6 +1457,11 @@ body {
     width: 50px;
     height: 50px;
 }
+@media (max-width: 600px) {
+  #salir-de-patacones {
+    top: 7px;
+  }
+} 
 
 #salir-de-salchipapas {
   background-color: #ff0000;
@@ -1432,6 +1472,11 @@ body {
     width: 50px;
     height: 50px;
 }
+@media (max-width: 600px) {
+  #salir-de-salchipapas {
+    top: 7px;
+  }
+} 
 
 #salir-de-initSection {
   background-color: #ff0000;
@@ -1532,8 +1577,48 @@ body {
   height: 225px;
   border-radius: 50px;
   margin: 30px;
-  color: rgba(255, 255, 255, 0.527);
-  background-color: #3f3f3f86;
-  border: 10px solid rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.527);
+  background-color: #000000;
+  border: 10px solid rgb(208, 255, 0);
   overflow: hidden;
+  color: yellow;
 }
+
+#verMyPedido {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  height: 585px;
+  border-radius: 25px;
+  top: 40px;
+  left: 15%;
+  z-index: 1;
+  border: 10px solid rgb(0, 0, 0);
+  box-shadow: 12px -9px rgb(208, 255, 0);
+  overflow: auto; /* Agregar barras de desplazamiento si es necesario */
+  background-color: rgba(77, 77, 77, 0.356);
+}
+@media (max-width: 600px) {
+  #verMyPedido {
+    position: fixed;
+  }
+} 
+
+#closeDivMiCarrito {
+  position: fixed;
+  left: 78%;
+  width: 75px;
+  height: 50px;
+  border-radius: 30px;
+  border: 5px solid rgb(44, 44, 44);
+  background-color: #ff0000;
+}
+@media (max-width: 600px) {
+  #closeDivMiCarrito {
+    left: 18%;
+    width: 50px;
+    height: 50px;
+  }
+} 
