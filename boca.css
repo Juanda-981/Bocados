@@ -215,15 +215,28 @@ body {
   height: 225px;
   border-radius: 50px;
   margin: 30px;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 255, 255);
   background-color: #000000;
   border: 10px solid rgb(255, 196, 0);
   overflow: hidden;
+}
+@media (max-width: 600px) {
+  .catalogo{
+    height: 341px;
+  }
 }
 .catalogo h2 {
   position: relative;
   left: 255px;
   top: 10px;
+}
+@media (max-width: 600px) {
+  .catalogo h2 {
+    position: relative;
+    left: 10px;
+    top: 190px;
+    font-size: 15px;
+  }
 }
 
 .catalogo:hover {
@@ -1622,3 +1635,13 @@ body {
     height: 50px;
   }
 } 
+
+.textHam {
+  position: absolute;
+  top: 350px;
+  left: 70px;
+  font-size: 30px;
+  z-index: 999;
+  color: #ffffff;
+  border-radius: 25px;
+}
