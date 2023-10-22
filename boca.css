@@ -1608,8 +1608,7 @@ body {
   top: 40px;
   left: 15%;
   z-index: 1;
-  border: 10px solid rgb(0, 0, 0);
-  box-shadow: 12px -9px rgb(208, 255, 0);
+  border: 10px solid yellow;
   overflow: auto; /* Agregar barras de desplazamiento si es necesario */
   background-color: rgba(77, 77, 77, 0.356);
 }
